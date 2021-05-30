@@ -1,7 +1,8 @@
 import React from 'react';
 import { render } from 'react-dom';
-import Navigation from './components/Navigation';
 import './style.css';
+import Logo from './components/Logo';
+import Navigation from './components/Navigation';
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <section id="home">
         <header>
           <div className="topbar container">
-            <div className="site-logo"></div>
+            <Logo />
             <Navigation />
           </div>
         </header>
