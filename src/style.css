@@ -20,9 +20,16 @@ body {
 
   color: rgb(21, 24, 21);
 }
-/* .topbar {
-  potrebuji topbar???
-} */
+
+.topbar {
+  display: flex;
+  max-width: 98%;
+
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  outline: 10px solid pink;
+}
 
 header {
   display: flex;
@@ -30,7 +37,34 @@ header {
   background-color: inherit;
   height: 4rem;
   outline: 1px solid blue;
+  max-width: 98%;
+
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 98%;
+  outline: 5px solid purple;
+}
+
+@media screen and (min-width: 780px) {
+  .topbar,
+  .header,
+  .container {
+    min-width: 80%;
+  }
+  .topbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+    outline: green solid 5px;
+  }
+}
+
 /*..............styles for navigation....*/
 
 /*
