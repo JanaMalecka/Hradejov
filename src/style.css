@@ -1,19 +1,35 @@
-* {
-  box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-  font-family: sans-serif;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-family: 'Roboto', sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
 
 body {
   margin: 0;
+  background-color: yellow;
+
+  color: rgb(21, 24, 21);
 }
+/* .topbar {
+  potrebuji topbar???
+} */
 
 header {
   display: flex;
-  background-color: lightgray;
-  height: 3rem;
+  position: relative;
+  background-color: inherit;
+  height: 4rem;
+  outline: 1px solid blue;
 }
 /*..............styles for navigation....*/
 
