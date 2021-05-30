@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { render } from 'react-dom';
+import Navigation from './components/Navigation';
 import './style.css';
 
 const App = () => {
@@ -9,26 +10,7 @@ const App = () => {
         <header>
           <div className="topbar container">
             <div className="site-logo"></div>
-            <div className="navigation">
-              <button id="nav-btn" className="nav-btn"></button>
-              <nav className="nav-closed">
-                <a href="#home" className="nav-link">
-                  Domů
-                </a>
-                <a href="#explore" className="nav-link">
-                  Poznejte své město
-                </a>
-                <a href="#whyplay" className="nav-link">
-                  Proč hrát naše hry
-                </a>
-                <a href="#buy" className="nav-link">
-                  Koupit hru
-                </a>
-                <a href="#contact" className="nav-link">
-                  Kontakt
-                </a>
-              </nav>
-            </div>
+            <Navigation />
           </div>
         </header>
         <div className="container">

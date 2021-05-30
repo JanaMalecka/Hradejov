@@ -15,7 +15,9 @@ header {
   background-color: lightgray;
   height: 3rem;
 }
+/*..............styles for navigation....*/
 
+/*
 .menu__btn {
   display: block;
   background-color: transparent;
@@ -47,3 +49,4 @@ header {
 .menu__btn:focus {
   outline: none;
 }
+ */
