@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import './style.css';
 import Logo from './components/Logo';
 import Navigation from './components/Navigation';
+import Intro from './pages/Intro';
 
 const App = () => {
   return (
@@ -14,17 +15,7 @@ const App = () => {
             <Navigation />
           </div>
         </header>
-        <div className="container">
-          <div className="intro">
-            <h1>Hradějov</h1>
-            <p>Pohádkový svět mezi námi</p>
-            <p>
-              Kupte si herní plán v podobě knihy a vyražte si hrát do města!
-            </p>
-            <p>Hry v reálném prostředí města Brna pro děti ve věku 4–10 </p>
-            <button>Koupit hru</button>
-          </div>
-        </div>
+        <Intro />
       </section>
       <section id="#explore">
         <div className="container">
