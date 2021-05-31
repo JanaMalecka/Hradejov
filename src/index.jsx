@@ -9,7 +9,7 @@ const App = () => {
     <>
       <section id="home">
         <header>
-          <div className="topbar container">
+          <div className="topbar container1">
             <Logo />
             <Navigation />
           </div>

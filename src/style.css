@@ -47,7 +47,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   max-width: 98%;
-  outline: 5px solid purple;
+  outline: 5px solid red;
 }
 
 @media screen and (min-width: 780px) {
