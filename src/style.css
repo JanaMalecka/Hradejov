@@ -168,11 +168,16 @@ nav a:hover {
     margin-top: 0rem;
     margin-bottom: 0rem;
     font-size: 1rem;
-    outline: 1px solid red;
   }
   .nav-closed {
-    display: block;
+    display: flex;
+    /*  align-items: center; */
+    /* align-content: center; */
+    outline: 1px solid purple;
   }
+  /* .hamburger {
+    display: none;
+  } */
 }
 
 /*
