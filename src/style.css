@@ -65,6 +65,7 @@ p {
   height: 6rem;
   border-radius: 30%;
   font-size: 1rem;
+  cursor: pointer;
 }
 /*...styles for menu.....*/
 

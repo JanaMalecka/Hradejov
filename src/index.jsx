@@ -4,6 +4,8 @@ import './style.css';
 /* import Logo from './components/Logo'; */
 /* import Navigation from './components/Navigation'; */
 import Intro from './pages/Intro';
+import Explore from './pages/Explore';
+import Whyplay from './pages/Whyplay';
 import facebookUrl from './img/facebook.svg';
 import instagramUrl from './img/instagram.svg';
 
@@ -116,66 +118,10 @@ const App = () => {
         <Intro />
       </section>
       <section id="#explore">
-        <div className="container">
-          <h1>Poznejte své město</h1>
-          <p>
-            V Brně se toho hodně děje. Staví se nové domy, opravují se ty staré,
-            rodiče pospíchají do práce a děti do školky či školy. Ale žijí tu i
-            jiné bytosti než malí a velcí Brňáci! A ty si nejraději hrají! A
-            přímo v ulicích!
-          </p>
-          <p>
-            Že jste ještě neslyšeli o pohádkovém světě Brna? Opravdu existuje!
-            Všelijaká rozpustilá stvoření tu pobíhají, postávají a polehávají,
-            objevují se a mizí. Nejvyšší čas se seznámit!
-          </p>
-          <p>
-            Utrhčíslo, Omylem, Puzzolente, Pimprlín a Pimprlína, Alene budou
-            dozajista rádi, když jim pomůžete s jejich hrami a napravíte jejich
-            vylomeniny
-          </p>
-          <p>
-            Jednotlivé hry mají původ v pohádce, odehrávají se v ulicích Brna,
-            děti se orientují za pomoci map, plní úkoly, které je dovedou k
-            cíli. Odměna je nemine. Stačí zakoupit herní plán v podobě knihy a
-            jít se bavit do ulic!
-          </p>
-          <p>Prozkoumej zajímavá místa (ikonka - mesto)</p>
-          <p>Hraj za pomoci knihy / ikonka - kniha</p>
-          <p>Vyřeš úkoly, budeš odměněn (ikonka – dárek – balíček)</p>
-          <div className="btn-wrapper">
-            <button className="btn">
-              Vyberte si svoji knihu (odklik do e-shopu)
-            </button>
-          </div>
-        </div>
+        <Explore />
       </section>
       <section id="#whyplay">
-        <div className="container">
-          <h1>Proč hrát naše hry</h1>
-          <p>
-            Zábava Jak zabavit své děti a vyplnit jejich volný čas řeší mnoho
-            rodičů. My vám nabízíme zábavný způsob, který dětem přinese zážitky
-            a dobrodružství přímo v jejich městě. Ale i vám.
-          </p>
-          <p>
-            Poznání Jednotlivé knihy s herním plánem jsou zasazeny do
-            pohádkového příběhu, který dětem zprostředkuje informace o městě
-            Brně. Za pomoci mapy se děti naučí orientovat v prostoru, hry
-            prohloubí jejich pozorovací i jazykové schopnosti a plnění
-            jednotlivých úkolů donutí děti logicky uvažovat.
-          </p>
-          <p>
-            Pohyb Kdo by nechtěl, aby se jeho dítě více pohybovalo, než aby bylo
-            baveno pasivně? Přidanou hodnotou našich her je pohyb ve městě,
-            parcích, promenádách, hřištích, náměstích, jednoduše v ulicích Brna.
-          </p>
-          <div className="btn-wrapper">
-            <button className="btn">
-              Vyberte si svoji knihu (odklik do eshopu)
-            </button>
-          </div>
-        </div>
+        <Whyplay />
       </section>
       <section id="#buy">
         <div className="container">
