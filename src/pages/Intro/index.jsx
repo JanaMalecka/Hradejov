@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1>Hradějov</h1>
+        <h1 className="intro-h1">Hradějov</h1>
         {/* <div className="hradejov"></div> */}
         <img
           className="img-hradejov"
@@ -16,7 +16,9 @@ const Intro = () => {
         <p className="first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
         <p>Kupte si herní plán v podobě knihy a vyražte si hrát do města!</p>
         <p>Hry v reálném prostředí města Brna pro děti ve věku 4–10 </p>
-        <button className="btn-buy">Koupit hru</button>
+        <div className="btn-wrapper">
+          <button className="btn btn-buy">Koupit hru</button>
+        </div>
       </div>
     </div>
   );

@@ -143,7 +143,11 @@ const App = () => {
           <p>Prozkoumej zajímavá místa (ikonka - mesto)</p>
           <p>Hraj za pomoci knihy / ikonka - kniha</p>
           <p>Vyřeš úkoly, budeš odměněn (ikonka – dárek – balíček)</p>
-          <button>Vyberte si svoji knihu (odklik do e-shopu)</button>
+          <div className="btn-wrapper">
+            <button className="btn">
+              Vyberte si svoji knihu (odklik do e-shopu)
+            </button>
+          </div>
         </div>
       </section>
       <section id="#whyplay">
@@ -166,7 +170,11 @@ const App = () => {
             baveno pasivně? Přidanou hodnotou našich her je pohyb ve městě,
             parcích, promenádách, hřištích, náměstích, jednoduše v ulicích Brna.
           </p>
-          <button>Vyberte si svoji knihu (odklik do eshopu)</button>
+          <div className="btn-wrapper">
+            <button className="btn">
+              Vyberte si svoji knihu (odklik do eshopu)
+            </button>
+          </div>
         </div>
       </section>
       <section id="#buy">
@@ -208,14 +216,18 @@ const App = () => {
             K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
             zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
           </p>
-          <button>Koupit knihu</button>
+          <div className="btn-wrapper">
+            <button className="btn">Koupit knihu</button>
+          </div>
           <p>Připravujeme</p>
           <h2>Puzzolente</h2>
           <h2>Hra Utrhčíslo</h2>
-          <button>
-            Podívejte se na ukázku hry, kterou pro Vás jistě stihneme
-            naprogramovat...
-          </button>
+          <div className="btn-wrapper">
+            <button className="btn">
+              Podívejte se na ukázku hry, kterou pro Vás jistě stihneme
+              naprogramovat...
+            </button>
+          </div>
         </div>
       </section>
       <section id="contact">

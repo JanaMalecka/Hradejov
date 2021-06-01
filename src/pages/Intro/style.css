@@ -1,9 +1,3 @@
-h1 {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 500;
-  margin-bottom: 0rem;
-}
 .img-hradejov {
   display: flex;
   width: 90%;
@@ -11,11 +5,26 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   border-radius: 5px;
+  position: relative;
+  padding-top: 5.3rem;
 }
+.intro-h1 {
+  font-size: 3rem;
 
+  font-weight: 500;
+  margin-bottom: 0rem;
+  position: absolute;
+  /*  text-align: center; */
+  left: calc(50% / 2 - 2rem);
+  z-index: 1;
+}
 .first {
   margin-top: 2rem;
 }
+
 .btn-buy {
-  position: absolute;
+  background-color: #fc765f;
+  border-color: #fc765f;
+  border: 2px solid #fc765f;
+  color: #15594d;
 }

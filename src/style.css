@@ -33,13 +33,38 @@ footer {
 section {
   padding-top: 1rem;
 }
+h1,
+h2 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+h1 {
+  text-align: center;
+}
+
 p {
   text-align: center;
   margin-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 .container {
   position: relative;
+}
+.btn-wrapper {
+  display: flex;
+  padding-top: 2rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-width: 10rem;
+  height: 6rem;
+  border-radius: 30%;
+  font-size: 1rem;
 }
 /*...styles for menu.....*/
 
@@ -47,8 +72,7 @@ p {
   display: flex;
   max-width: 98%;
   padding: 0 0 1rem 0;
-  /*  height: 4rem; */
-
+  min-height: 4rem; /* musi byt min-height, jinak text preteka*/
   justify-content: space-between;
   outline: 10px solid pink;
 }
