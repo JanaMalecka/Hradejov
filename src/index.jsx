@@ -9,6 +9,11 @@ import instagramUrl from './img/instagram.svg';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  /*   const [pageTitle, setPageTitle] = useState('Domů');
+  const handleSelectItem = (page) => {
+    setMenuOpen(false);
+    setPageTitle(page);
+  }; */
 
   return (
     <>
@@ -19,6 +24,12 @@ const App = () => {
               <span className="site-logo">Logo</span>
               <div className="icons">
                 <img
+                  onClick={() => {
+                    <a
+                      href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
+                      target="_blank"
+                    ></a>;
+                  }}
                   className="icon-fb"
                   src={facebookUrl}
                   alt="ikonka Facebooku"
@@ -45,19 +56,39 @@ const App = () => {
               </button>
               {menuOpen === true ? (
                 <nav className="nav-closed">
-                  <a href="#home" className="nav-link">
+                  <a
+                    /* onSelect={handleSelectItem} */
+                    href="#home"
+                    className="nav-link"
+                  >
                     Domů
                   </a>
-                  <a href="#explore" className="nav-link">
+                  <a
+                    /* onSelect={handleSelectItem} */
+                    href="#explore"
+                    className="nav-link"
+                  >
                     Poznejte své město
                   </a>
-                  <a href="#whyplay" className="nav-link">
+                  <a
+                    /* onSelect={handleSelectItem} */
+                    href="#whyplay"
+                    className="nav-link"
+                  >
                     Proč hrát naše hry
                   </a>
-                  <a href="#buy" className="nav-link">
+                  <a
+                    /* onSelect={handleSelectItem} */
+                    href="#buy"
+                    className="nav-link"
+                  >
                     Koupit hru
                   </a>
-                  <a href="#contact" className="nav-link">
+                  <a
+                    /* onSelect={handleSelectItem} */
+                    href="#contact"
+                    className="nav-link"
+                  >
                     Kontakt
                   </a>
                 </nav>
