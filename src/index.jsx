@@ -1,18 +1,68 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { render } from 'react-dom';
 import './style.css';
-import Logo from './components/Logo';
-import Navigation from './components/Navigation';
+/* import Logo from './components/Logo'; */
+/* import Navigation from './components/Navigation'; */
 import Intro from './pages/Intro';
+import facebookUrl from './img/facebook.svg';
+import instagramUrl from './img/instagram.svg';
 
 const App = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <>
       <section id="home">
         <header>
-          <div className="topbar container1">
-            <Logo />
-            <Navigation />
+          <div className="topbar container">
+            <div className="topbar-left">
+              <span className="site-logo">Logo</span>
+              <div className="icons">
+                <img
+                  className="icon-fb"
+                  src={facebookUrl}
+                  alt="ikonka Facebooku"
+                />
+                <img
+                  className="icon-inst"
+                  src={instagramUrl}
+                  alt="ikonka Instagramu"
+                />
+                <div className="icon-inst"></div>
+              </div>
+            </div>
+            <div className="navigation">
+              <button
+                onClick={() =>
+                  menuOpen === true ? setMenuOpen(false) : setMenuOpen(true)
+                }
+                className={menuOpen ? 'hamburger hamburger--open' : 'hamburger'}
+                aria-label="menu"
+              >
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              {menuOpen === true ? (
+                <nav className="nav-closed">
+                  <a href="#home" className="nav-link">
+                    Domů
+                  </a>
+                  <a href="#explore" className="nav-link">
+                    Poznejte své město
+                  </a>
+                  <a href="#whyplay" className="nav-link">
+                    Proč hrát naše hry
+                  </a>
+                  <a href="#buy" className="nav-link">
+                    Koupit hru
+                  </a>
+                  <a href="#contact" className="nav-link">
+                    Kontakt
+                  </a>
+                </nav>
+              ) : null}
+            </div>
           </div>
         </header>
         <Intro />

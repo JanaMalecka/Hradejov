@@ -1,4 +1,4 @@
-import React from 'react';
+/* import React from 'react';
 
 import './style.css';
 
@@ -7,3 +7,4 @@ const Logo = () => {
 };
 
 export default Logo;
+ */
