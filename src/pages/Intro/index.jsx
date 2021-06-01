@@ -9,14 +9,14 @@ const Intro = () => {
         <h1>Hradějov</h1>
         {/* <div className="hradejov"></div> */}
         <img
-          className="hradejov"
+          className="img-hradejov"
           src={hradejovUrl}
           alt="obrázek s hlavními postavičkami Hradějova"
         />
-        <p>Pohádkový svět mezi námi</p>
+        <p className="first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
         <p>Kupte si herní plán v podobě knihy a vyražte si hrát do města!</p>
         <p>Hry v reálném prostředí města Brna pro děti ve věku 4–10 </p>
-        <button>Koupit hru</button>
+        <button className="btn-buy">Koupit hru</button>
       </div>
     </div>
   );
