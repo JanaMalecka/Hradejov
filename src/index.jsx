@@ -62,6 +62,23 @@ const App = () => {
                   </a>
                 </nav>
               ) : null}
+              <nav className="nav-open">
+                <a href="#home" className="nav-link">
+                  Domů
+                </a>
+                <a href="#explore" className="nav-link">
+                  Poznejte své město
+                </a>
+                <a href="#whyplay" className="nav-link">
+                  Proč hrát naše hry
+                </a>
+                <a href="#buy" className="nav-link">
+                  Koupit hru
+                </a>
+                <a href="#contact" className="nav-link">
+                  Kontakt
+                </a>
+              </nav>
             </div>
           </div>
         </header>

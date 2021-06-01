@@ -51,6 +51,7 @@ section {
   max-width: 20%;
   width: 8rem;
   height: 4rem;
+  padding: 0 0 1rem 0;
 }
 .icons {
   display: flex;
@@ -158,6 +159,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     max-width: 80%;
+    margin-top: 4rem;
   }
   nav {
     width: initial;
@@ -169,17 +171,31 @@ nav a:hover {
     margin-bottom: 0rem;
     font-size: 1rem;
   }
-  .nav-closed {
+  .nav-open {
     display: flex;
-    /*  align-items: center; */
-    /* align-content: center; */
-    outline: 1px solid purple;
+    padding-top: 0rem;
+    align-items: center;
+    align-content: center;
   }
-  /* .hamburger {
+  .hamburger {
     display: none;
-  } */
+  }
 }
 
+@media screen and (min-width: 980px) {
+  .topbar,
+  .header,
+  .container,
+  footer {
+    max-width: 75%;
+  }
+  .topbar-left {
+    max-width: 25%;
+  }
+  .navigation {
+    max-width: 75%;
+  }
+}
 /*
 @media (max-width: 779px) {
   
