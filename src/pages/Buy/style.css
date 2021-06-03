@@ -17,7 +17,9 @@ h2 {
 .price {
   font-size: 2rem;
 }
-
+.book-puzzolente {
+  max-width: 50%;
+}
 @media screen and (min-width: 780px) {
   .book {
   }

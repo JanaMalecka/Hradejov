@@ -2,6 +2,7 @@ import React from 'react';
 import './style.css';
 import coverUrl from './img/cover.png';
 import basketUrl from './img/basket.svg';
+import puzzolenteUrl from './img/puzzolente.jpg';
 
 const Buy = () => {
   return (
@@ -63,6 +64,12 @@ const Buy = () => {
       <p>Připravujeme</p>
 
       <h2>Puzzolente</h2>
+      <img
+        className="book-puzzolente"
+        src={puzzolenteUrl}
+        alt="obrázek pohádkové postavy Puzzolente"
+      />
+
       <h2>Hra Utrhčíslo</h2>
       <div className="btn-wrapper">
         <button className="btn">
