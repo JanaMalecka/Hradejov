@@ -35,7 +35,7 @@ const Whyplay = () => {
       </div>
       <div className="btn-wrapper">
         <a href="#buy" className="btn-a-href">
-          <button className="btn btn-choose-2nd">Vyberte si svou knihu</button>
+          <button className="btn btn-choose-2nd">Koupit hru</button>
         </a>
       </div>
     </div>

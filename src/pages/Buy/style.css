@@ -1,0 +1,8 @@
+.book {
+  max-width: 50%;
+  display: flex;
+  margin: auto;
+}
+h2 {
+  text-align: center;
+}

@@ -46,7 +46,7 @@ const Explore = () => {
       </div>
       <div className="btn-wrapper">
         <a href="#buy" className="btn-a-href">
-          <button className="btn btn-choose">Vyberte si svou knihu</button>
+          <button className="btn btn-choose">Koupit hru</button>
         </a>
       </div>
     </div>
