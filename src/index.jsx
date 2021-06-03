@@ -25,17 +25,16 @@ const App = () => {
             <div className="topbar-left">
               <span className="site-logo">Logo</span>
               <div className="icons">
-                <img
-                  onClick={() => {
-                    <a
-                      href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
-                      target="_blank"
-                    ></a>;
-                  }}
-                  className="icon-fb"
-                  src={facebookUrl}
-                  alt="ikonka Facebooku"
-                />
+                <a
+                  href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
+                  target="_blank"
+                >
+                  <img
+                    className="icon-fb"
+                    src={facebookUrl}
+                    alt="ikonka Facebooku"
+                  />
+                </a>
                 <img
                   className="icon-inst"
                   src={instagramUrl}
@@ -117,13 +116,13 @@ const App = () => {
         </header>
         <Intro />
       </section>
-      <section id="#explore">
+      <section id="explore">
         <Explore />
       </section>
-      <section id="#whyplay">
+      <section id="whyplay">
         <Whyplay />
       </section>
-      <section id="#buy">
+      <section id="buy">
         <div className="container">
           <h1>Knihy</h1>
           <h2>Utrhčíslo</h2>
