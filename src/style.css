@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @font-face {
+  font-family: 'PreissigPoster';
+  src: local('PreissigPoster'),
+    url('fonts/PreissigPoster.ttf') format('truetype'),
+    url('fonts/PreissigPoster.eot') format('embedded-opentype'),
+    url('fonts/PreissigPoster.woff') format('woff'),
+    url('fonts/PreissigPoster.svg') format('svg');
+} */
 
 html {
   box-sizing: border-box;
   font-size: 1.1rem;
   font-family: 'Roboto', sans-serif;
+  /* font-family: 'PreissigPoster'; */
   min-width: 100%;
   min-height: 100%;
 }
@@ -16,8 +25,9 @@ html {
 
 body {
   margin: 0;
-  background-color: #77cec7;
-  color: #15594d;
+  background-color: #5fc2ba;
+  /* color: #15594d; */
+  color: #fdfefe;
 }
 
 .container,
@@ -56,6 +66,10 @@ p {
   display: flex;
   padding-top: 2rem;
 }
+.btn-a-href {
+  margin: auto;
+  text-decoration: none;
+}
 .btn {
   display: flex;
   align-items: center;
@@ -82,7 +96,7 @@ p {
 }
 /*..........styles for logo and icons...*/
 .site-logo {
-  max-width: 20%;
+  max-width: 40%;
   width: 8rem;
   min-height: 4rem;
   padding: 0 0 1rem 0;
@@ -108,7 +122,7 @@ p {
 nav {
   width: 100%;
   padding: 0rem;
-  background-color: #77cec7;
+  background-color: #5fc2ba;
 }
 
 nav a {
@@ -119,7 +133,8 @@ nav a {
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
-  color: #15594d;
+  /*  color: #15594d; */
+  color: #fdfefe;
 }
 nav a:hover {
   border-bottom: 1px solid pink;

@@ -8,14 +8,10 @@ import Explore from './pages/Explore';
 import Whyplay from './pages/Whyplay';
 import facebookUrl from './img/facebook.svg';
 import instagramUrl from './img/instagram.svg';
+import logo1Url from './img/logo1.png';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  /*   const [pageTitle, setPageTitle] = useState('Domů');
-  const handleSelectItem = (page) => {
-    setMenuOpen(false);
-    setPageTitle(page);
-  }; */
 
   return (
     <>
@@ -23,7 +19,11 @@ const App = () => {
         <header>
           <div className="topbar container">
             <div className="topbar-left">
-              <span className="site-logo">Logo</span>
+              <img
+                className="site-logo"
+                src={logo1Url}
+                alt="otevřená kniha s názvem Hradějov jako logo stránek"
+              />
               <div className="icons">
                 <a
                   href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
@@ -57,39 +57,19 @@ const App = () => {
               </button>
               {menuOpen === true ? (
                 <nav className="nav-closed">
-                  <a
-                    /* onSelect={handleSelectItem} */
-                    href="#home"
-                    className="nav-link"
-                  >
+                  <a href="#home" className="nav-link">
                     Domů
                   </a>
-                  <a
-                    /* onSelect={handleSelectItem} */
-                    href="#explore"
-                    className="nav-link"
-                  >
+                  <a href="#explore" className="nav-link">
                     Poznejte své město
                   </a>
-                  <a
-                    /* onSelect={handleSelectItem} */
-                    href="#whyplay"
-                    className="nav-link"
-                  >
+                  <a href="#whyplay" className="nav-link">
                     Proč hrát naše hry
                   </a>
-                  <a
-                    /* onSelect={handleSelectItem} */
-                    href="#buy"
-                    className="nav-link"
-                  >
+                  <a href="#buy" className="nav-link">
                     Koupit hru
                   </a>
-                  <a
-                    /* onSelect={handleSelectItem} */
-                    href="#contact"
-                    className="nav-link"
-                  >
+                  <a href="#contact" className="nav-link">
                     Kontakt
                   </a>
                 </nav>

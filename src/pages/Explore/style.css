@@ -4,3 +4,8 @@
   border: 2px solid #e5b032;
   color: #15594d;
 }
+@media screen and (min-width: 780px) {
+  .container--columns {
+    display: flex;
+  }
+}

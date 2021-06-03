@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import hradejovUrl from './img/hradejov.png';
 
@@ -21,7 +21,9 @@ const Intro = () => {
         <p>Kupte si herní plán v podobě knihy a vyražte si hrát do města!</p>
         <p>Hry v reálném prostředí města Brna pro děti ve věku 4–10 </p>
         <div className="btn-wrapper">
-          <button className="btn btn-buy">Koupit hru</button>
+          <a href="#buy" className="btn-a-href">
+            <button className="btn btn-buy">Koupit hru</button>
+          </a>
         </div>
       </div>
     </div>

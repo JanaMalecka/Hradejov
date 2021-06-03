@@ -1,6 +1,30 @@
+.container--columns h3 {
+  text-align: center;
+}
+
 .btn-choose-2nd {
   background-color: #b6b9b7;
   border-color: #b6b9b7;
   border: 2px solid #b6b9b7;
   color: #15594d;
+}
+.column-first,
+.column-second,
+.column-third {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-building,
+.icon-book,
+.icon-gift {
+  width: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 780px) {
+  .container--columns {
+    display: flex;
+  }
 }

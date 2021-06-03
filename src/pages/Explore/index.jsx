@@ -1,5 +1,8 @@
 import React from 'react';
 import './style.css';
+import bookUrl from './img/book.svg';
+import buildingUrl from './img/building.svg';
+import giftUrl from './img/gift.svg';
 
 const Explore = () => {
   return (
@@ -27,13 +30,24 @@ const Explore = () => {
         je nemine. Stačí zakoupit herní plán v podobě knihy a jít se bavit do
         ulic!
       </p>
-      <p>Prozkoumej zajímavá místa (ikonka - mesto)</p>
-      <p>Hraj za pomoci knihy / ikonka - kniha</p>
-      <p>Vyřeš úkoly, budeš odměněn (ikonka – dárek – balíček)</p>
+      <div className="container--columns">
+        <div className="column-first">
+          <p>Prozkoumej zajímavá místa</p>
+          <img className="icon-building" src={buildingUrl} alt="ikonka budov" />
+        </div>
+        <div className="column-second">
+          <p>Hraj za pomoci knihy</p>
+          <img className="icon-book" src={bookUrl} alt="ikonka knihy" />
+        </div>
+        <div className="column-third">
+          <p>Vyřeš úkoly, budeš odměněn</p>
+          <img className="icon-gift" src={giftUrl} alt="ikonka dárku" />
+        </div>
+      </div>
       <div className="btn-wrapper">
-        <button className="btn btn-choose">
-          Vyberte si svoji knihu (odklik do e-shopu)
-        </button>
+        <a href="#buy" className="btn-a-href">
+          <button className="btn btn-choose">Vyberte si svou knihu</button>
+        </a>
       </div>
     </div>
   );
