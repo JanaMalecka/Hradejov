@@ -7,8 +7,8 @@ import Intro from './pages/Intro';
 import Explore from './pages/Explore';
 import Whyplay from './pages/Whyplay';
 import Buy from './pages/Buy';
-import facebookUrl from './img/facebook.svg';
-import instagramUrl from './img/instagram.svg';
+import faceUrl from './img/face.png';
+
 import logo2Url from './img/logo2.jpg';
 
 const App = () => {
@@ -32,7 +32,7 @@ const App = () => {
                 >
                   <img
                     className="icon-fb"
-                    src={facebookUrl}
+                    src={faceUrl}
                     alt="ikonka Facebooku"
                   />
                 </a>
@@ -152,11 +152,7 @@ const App = () => {
               href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
               target="_blank"
             >
-              <img
-                className="icon-fb"
-                src={facebookUrl}
-                alt="ikonka Facebooku"
-              />
+              <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />
             </a>
           </div>
           <p>Email: info@hradejov.cz</p>

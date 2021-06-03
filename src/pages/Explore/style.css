@@ -2,10 +2,13 @@
   background-color: #e5b032;
   border-color: #e5b032;
   border: 2px solid #e5b032;
-  color: #15594d;
+  color: #1976a5;
+  font-weight: bold;
+  border-radius: 50%;
 }
 @media screen and (min-width: 780px) {
   .container--columns {
     display: flex;
+    justify-content: space-evenly;
   }
 }

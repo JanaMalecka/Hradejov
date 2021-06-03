@@ -6,11 +6,10 @@
   margin-right: auto;
   border-radius: 5px;
   position: relative;
-  padding-top: 5.3rem;
+  padding-top: 5.7rem;
 }
 .intro-h1 {
   font-size: 3rem;
-
   font-weight: 500;
   margin-bottom: 0rem;
   position: absolute;
@@ -21,17 +20,31 @@
 
 .first {
   margin-top: 2rem;
+  font-size: 2rem;
+}
+.first p {
+  font-size: 2rem;
 }
 
 .btn-buy {
   background-color: #fc765f;
   border-color: #fc765f;
   border: 2px solid #fc765f;
-  color: #15594d;
+  color: #1976a5;
+  font-weight: bold;
   margin: auto;
   border-radius: 50%;
 }
 
+@media screen and (min-width: 780px) {
+  .img-hradejov {
+    max-width: 75%;
+    padding-top: 9.9rem;
+  }
+  .intro-h1 {
+    font-size: 5rem;
+  }
+}
 /*...3d...*/
 
 /* .intro {

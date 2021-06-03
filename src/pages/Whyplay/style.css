@@ -6,7 +6,9 @@
   background-color: #b6b9b7;
   border-color: #b6b9b7;
   border: 2px solid #b6b9b7;
-  color: #15594d;
+  color: #1976a5;
+  font-weight: bold;
+  border-radius: 50%;
 }
 .column-first,
 .column-second,
