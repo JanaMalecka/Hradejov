@@ -26,7 +26,6 @@ const Buy = () => {
           zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
         </p>
       </div>
-      {/* vyskakovaci text na klik?
       <p>
         Ahoj děti, znáte Utrhčísla? Že ne? Tak to si – tuším – jen myslíte. I
         když jste ho možná nikdy nepotkaly, jeho práci znáte jistě velmi dobře.
@@ -35,7 +34,9 @@ const Buy = () => {
         nemohou být jistá. Jak totiž jeho jméno napovídá, všude je trhá a sbírá
         a pak si jimi cpe svůj břuch. Baňaté nuly pořádá jako knedlíky, osmičky
         polyká jako noky, jedničky do sebe souká jako špagety a šestky si
-        rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá, má to s nimi
+        rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá...
+      </p>
+      {/* , má to s nimi
         jako lidé a hlavně děti s jídly. Některá mu chutnají více, jiná méně.
         Nejraději má různé součty a součiny tedy čísla pomalu a komplikovaně
         připravovaná, ale také stovky, dvoustovky a pětistovky z bankovek. Ta mu
@@ -49,8 +50,7 @@ const Buy = () => {
         na nich spát jako na polštáři či sedět jako na podušce. Stačí, když
         Utrhčísla sem tam nakrmíme, a mu už se rodičovské peněženky i se všemi
         obsahujícími čísly samy z hlavy vykouří.
-      </p> */}
-
+      </p>   */}
       <div className="btn-wrapper">
         <a href="" className="btn-basket">
           <img
@@ -62,14 +62,12 @@ const Buy = () => {
         <div className="price">300 Kč</div>
       </div>
       <p>Připravujeme</p>
-
       <h2>Puzzolente</h2>
       <img
         className="book-puzzolente"
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
-
       <h2>Hra Utrhčíslo</h2>
       <div className="btn-wrapper">
         <button className="btn">

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
 /* @font-face {
   font-family: 'PreissigPoster';
   src: local('PreissigPoster'),
@@ -8,13 +8,21 @@
     url('fonts/PreissigPoster.svg') format('svg');
 } */
 
+/* @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
 html {
   box-sizing: border-box;
-  font-size: 1.1rem;
-  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  /*  font-family: 'Roboto', sans-serif; */
   /* font-family: 'PreissigPoster'; */
+  /* font-family: 'Sedgwick Ave Display', cursive; */
+  /*  font-family: 'Sedgwick Ave Display', cursive; */
+  font-family: 'Love Ya Like A Sister', cursive;
   min-width: 100%;
   min-height: 100%;
+  letter-spacing: 1px;
 }
 
 *,
@@ -25,9 +33,10 @@ html {
 
 body {
   margin: 0;
-  background-color: #b9f2f4;
+  background-color: #f8eec0;
   /* color: #15594d; */
   color: #1976a5;
+  /*  color: #268f90; */
 }
 
 .container,
@@ -97,15 +106,15 @@ p {
 }
 /*..........styles for logo and icons...*/
 .site-logo {
-  max-width: 40%;
-  width: 8rem;
+  width: 15rem;
   min-height: 4rem;
-  padding: 0 0 1rem 0;
+  padding: 0 0 0 0;
 }
 .icons {
   display: flex;
   flex-direction: row;
   cursor: pointer;
+  display: block;
 }
 .icon-fb {
   padding-left: 0.6rem;
@@ -123,7 +132,7 @@ p {
 nav {
   width: 100%;
   padding: 0rem;
-  background-color: #5fc2ba;
+  /*   background-color: #5fc2ba; */
 }
 
 nav a {
