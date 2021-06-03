@@ -36,12 +36,6 @@ const App = () => {
                     alt="ikonka Facebooku"
                   />
                 </a>
-                <img
-                  className="icon-inst"
-                  src={instagramUrl}
-                  alt="ikonka Instagramu"
-                />
-                <div className="icon-inst"></div>
               </div>
             </div>
             <div className="navigation">

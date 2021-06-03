@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import coverUrl from './img/cover.png';
+import basketUrl from './img/basket.svg';
 
 const Buy = () => {
   return (
@@ -50,9 +51,17 @@ const Buy = () => {
       </p> */}
 
       <div className="btn-wrapper">
-        <button className="btn">Koupit knihu</button>
+        <a href="" className="btn-basket">
+          <img
+            className="btn icon-basket"
+            src={basketUrl}
+            alt="ikonka nákupního košíku"
+          />
+        </a>
+        <div className="price">300 Kč</div>
       </div>
       <p>Připravujeme</p>
+
       <h2>Puzzolente</h2>
       <h2>Hra Utrhčíslo</h2>
       <div className="btn-wrapper">
