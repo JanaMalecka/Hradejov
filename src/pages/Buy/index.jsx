@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import coverUrl from './img/cover.png';
 import basket2Url from './img/basket2.png';
@@ -6,6 +6,15 @@ import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 
 const Buy = () => {
+  const [number, setNumber] = useState(0);
+  const [sum, setSum] = useState(0);
+  /*nefunguje, useEffect?*/
+  const handleClick = (event) => {
+    event.preventDefault();
+    setNumber(number + 1);
+    console.log(number);
+    setSum(300 * number);
+  };
   return (
     <div className="container">
       <h1>Koupit hru</h1>
@@ -44,7 +53,7 @@ const Buy = () => {
         rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá...
       </p>
       <div className="btn-wrapper btn-wrapper--basket">
-        <div className="basket--price">
+        <div onClick={handleClick} className="basket--price">
           <a href="" className="btn-basket">
             <img
               className="btn icon-basket"
@@ -53,7 +62,10 @@ const Buy = () => {
             />
           </a>
         </div>
-        <div className="price">300 Kč</div>
+        <div className="basket--price">
+          <div className="counter">Počet kusů: {number} ks * 300,- ks</div>
+          <div className="price">{sum} Kč</div>
+        </div>
       </div>
       <h2>Připravujeme</h2>
       <h2>Puzzolente</h2>
