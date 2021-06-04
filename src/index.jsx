@@ -9,7 +9,7 @@ import Whyplay from './pages/Whyplay';
 import Buy from './pages/Buy';
 import faceUrl from './img/face.png';
 
-import logo2Url from './img/logo2.jpg';
+import logoUrl from './img/logo.png';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,7 +22,7 @@ const App = () => {
             <div className="topbar-left">
               <img
                 className="site-logo"
-                src={logo2Url}
+                src={logoUrl}
                 alt="otevřená kniha s názvem Hradějov jako logo stránek"
               />
               <div className="icons">

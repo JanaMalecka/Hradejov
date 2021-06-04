@@ -6,6 +6,10 @@
   font-weight: bold;
   border-radius: 50%;
 }
+.icon-book {
+  height: 4rem;
+  width: 5rem;
+}
 @media screen and (min-width: 780px) {
   .container--columns {
     display: flex;

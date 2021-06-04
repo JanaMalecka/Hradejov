@@ -1,8 +1,9 @@
 import React from 'react';
 import './style.css';
-import bookUrl from './img/book.svg';
-import buildingUrl from './img/building.svg';
-import giftUrl from './img/gift.svg';
+
+import buildingBlueUrl from './img/buildingBlue.png';
+import book2Url from './img/book2.png';
+import giftPinkUrl from './img/giftPink.png';
 
 const Explore = () => {
   return (
@@ -33,15 +34,19 @@ const Explore = () => {
       <div className="container--columns">
         <div className="column-first">
           <p>Prozkoumej zajímavá místa</p>
-          <img className="icon-building" src={buildingUrl} alt="ikonka budov" />
+          <img
+            className="icon-building"
+            src={buildingBlueUrl}
+            alt="ikonka budov"
+          />
         </div>
         <div className="column-second">
           <p>Hraj za pomoci knihy</p>
-          <img className="icon-book" src={bookUrl} alt="ikonka knihy" />
+          <img className="icon-book" src={book2Url} alt="ikonka knihy" />
         </div>
         <div className="column-third">
           <p>Vyřeš úkoly, budeš odměněn</p>
-          <img className="icon-gift" src={giftUrl} alt="ikonka dárku" />
+          <img className="icon-gift" src={giftPinkUrl} alt="ikonka dárku" />
         </div>
       </div>
       <div className="btn-wrapper">
