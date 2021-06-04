@@ -3,6 +3,7 @@ import './style.css';
 import coverUrl from './img/cover.png';
 import basket2Url from './img/basket2.png';
 import puzzolenteUrl from './img/puzzolente.jpg';
+import omylemUrl from './img/omylem.jpg';
 
 const Buy = () => {
   return (
@@ -31,7 +32,7 @@ const Buy = () => {
           </p>
         </div>
       </div>
-      <h3>Ukázka z knihy</h3>
+      <h3 className="extract">Ukázka z knihy</h3>
       <p>
         Ahoj děti, znáte Utrhčísla? Že ne? Tak to si – tuším – jen myslíte. I
         když jste ho možná nikdy nepotkaly, jeho práci znáte jistě velmi dobře.
@@ -54,13 +55,67 @@ const Buy = () => {
         </div>
         <div className="price">300 Kč</div>
       </div>
-      <p>Připravujeme</p>
+      <h2>Připravujeme</h2>
       <h2>Puzzolente</h2>
       <img
-        className="book-puzzolente"
+        className="book"
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
+      <div className="text--wrapper">
+        <h3 className="extract">Ukázka z knihy</h3>
+        <p>
+          V době, kdy byl Špilberk ještě vězením, zde nuceně pobývalo množství
+          provinilců z celého tehdejšího mocnářství. A mezi nimi také vězeň
+          číslo 10963, vlastním jménem Sergio Pabio z Neapole, který se jednoho
+          léta za dveřmi cely číslo 36 příšerně nudil. A jistě to znáte také
+          samy, že nuda může spouštět neskutečná alotria. A tak se také stalo:
+          Sergio přemýšlel a vymýšlel jaké naschválnosti by provedl dozorcům za
+          to, že oni mohou po práci chodit za svými manželkami pro pohlazení, za
+          svými uzenáři a řezníky pro klobásky a špíček a za svými hostinskými a
+          sklepmistry pro žejdlík piva či korbel vína – zatímco on musí ležet
+          sám, na tvrdém kavalci o chlebu a vodě.
+        </p>
+        <p>
+          A tak přemýšlel, jak by se zmenšil, proklouzl zamřížovaným okénkem ven
+          a tam dozorcům sfouknul všechny lucerny, rozkutálel do pyramid
+          seskládané dělové koule či jim naplival do tabáku a na sirky. Jó, to
+          by bylo. Jistě by se vztekali a nadávali mu, jak to dělali za jeho
+          dětství, když ještě běhal v neapolských uličkách jako malý capart.
+          Často po takovém vyvedeném šprýmu na něj potrefení volali po italsku:
+          „Puzzolente!“ Sny to byly tak živé, že jednoho dne obživly a toho dne
+          se narodil Puzzolente...
+        </p>
+      </div>
+      <h2>Omylem</h2>
+      <img
+        className="book"
+        src={omylemUrl}
+        alt="obrázek pohádkové postavy Omylem"
+      />
+      <div className="text--wrapper">
+        <h3 className="extract">Ukázka z knihy</h3>
+        <p>
+          Náš příběh, jehož součástí se stanete, začal již před řádkou let. Toho
+          dne se jeden rybář na břehu Svratky velmi podivil. Na háčku jeho udice
+          se zachytila láhev uzavřená velikým špuntem. Sotva ji vylovil a
+          odzátkoval, vyskočil z ní malý budulín, štěkl na něj: „Omylem!“,
+          zvětšil se a odhopsal směrem k centru města. Chudák rybář jen zavrčel:
+          „Si piš, že to bylo omylem!“. Netušil, že se mu pidižvík právě
+          představil.
+        </p>
+        <p>
+          Už se vám, děti, někdy ztratila nějaká hračka či pastelka, a posléze
+          se našla? Záhada ušatá, viďte? Ono totiž není zcela vyloučeno, že v
+          tom měl prsty právě tenhleten Omylem. Budulín, trochu potměšilý, ve
+          velikánských zelených laclových kalhotách s hlubokými kapsami. Do nich
+          se mu vlastním přičiněním zatoulává značné množství věcí, a to i přes
+          to, že nejsou jeho. Snad si to ani neuvědomuje. Na výtky s úsměvem
+          odpovídá: „To bylo omylem.“ Proto mu tak lidé říkají. A jakoby ho to
+          jméno poznamenalo, „omylem“ se mu stávají i jiné nehody a
+          nepříjemnosti...
+        </p>
+      </div>
       <h2>Hra Utrhčíslo</h2>
       <div className="btn-wrapper">
         <button className="btn">

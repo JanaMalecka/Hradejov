@@ -3,6 +3,7 @@
   display: flex;
   margin: auto;
   padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 h2 {
   text-align: center;
@@ -20,8 +21,10 @@ h2 {
 .price {
   font-size: 2rem;
 }
-.book-puzzolente {
-  max-width: 50%;
+
+.extract {
+  padding-left: 2rem;
+  padding-top: 1rem;
 }
 @media screen and (min-width: 780px) {
   .book {
