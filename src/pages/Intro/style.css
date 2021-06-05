@@ -4,15 +4,13 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
+  border-radius: 0 10px 10px 10px;
   position: relative;
-  padding-top: 5.7rem;
 }
 .intro-h1 {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0rem;
-  position: absolute;
   /*  text-align: center; */
   left: calc(50% / 2 - 2rem);
   z-index: 1;
@@ -39,7 +37,6 @@
 @media screen and (min-width: 780px) {
   .img-hradejov {
     max-width: 60%;
-    padding-top: 9.9rem;
   }
   .intro-h1 {
     font-size: 5rem;

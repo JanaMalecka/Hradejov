@@ -6,10 +6,6 @@ import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 
 const Buy = () => {
-  const [number, setNumber] = useState(0);
-  const [sum, setSum] = useState(0);
-  /*nefunguje, useEffect?*/
-  const handleClick = () => {};
   return (
     <div className="container">
       <h1>Koupit hru</h1>
@@ -49,7 +45,7 @@ const Buy = () => {
       </p>
       <div className="btn-wrapper btn-wrapper--basket">
         <h1>Dát hru Utrhčíslo do košíku a jít k pokladně</h1>
-        <div onClick={handleClick} className="basket--price">
+        <div className="basket--price">
           <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img
               className="btn icon-basket"
