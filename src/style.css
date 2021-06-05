@@ -24,6 +24,65 @@ html {
 ::after {
   box-sizing: inherit;
 }
+/*...separatory stranek...*/
+
+.container--separator--pink {
+  position: relative;
+  background: #f2d0ed;
+}
+.wave {
+  position: absolute;
+  height: 103px;
+  width: 100%;
+  bottom: 0;
+}
+.wave--pink {
+  background: #f2d0ed;
+}
+
+.wave::before,
+.wave::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  z-index: 100;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  right: -1.5%;
+  top: 60%;
+}
+.wave--pink::before {
+  background-color: #fff;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  left: -1.5%;
+  top: 40%;
+}
+.wave--pink::after {
+  background-color: #f2d0ed;
+}
+
+/*.....*/
+.container--separator--white {
+  position: relative;
+  background: #fff;
+}
+.wave--white {
+  background: white;
+}
+
+.wave--white::before {
+  background-color: #f2d0ed;
+}
+.wave--white::after {
+  background-color: #fff;
+}
 
 body {
   margin: 0;
@@ -32,7 +91,9 @@ body {
   color: #1976a5;
   /*  color: #268f90; */
 }
-
+.first__page--background {
+  background-color: #f2d0ed;
+}
 .container,
 header,
 footer {
@@ -41,11 +102,12 @@ footer {
   margin-left: auto;
   margin-right: auto;
   background-color: inherit;
-  max-width: 98%;
 }
 section {
-  padding-top: 1rem;
-  padding-bottom: 3rem;
+  margin-top: -1rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  margin-bottom: 1rem;
 }
 h1,
 h2 {
@@ -140,7 +202,7 @@ p {
 nav {
   width: 100%;
   padding: 0rem;
-  background-color: white;
+  background-color: #f2d0ed;
 }
 
 nav a {
@@ -155,7 +217,7 @@ nav a {
   color: #1976a5;
 }
 nav a:hover {
-  border-bottom: 1px solid pink;
+  border-bottom: 2px solid #1976a5;
 }
 .nav-open {
   display: none;

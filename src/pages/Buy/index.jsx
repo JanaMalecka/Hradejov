@@ -64,7 +64,7 @@ const Buy = () => {
       />
       <div className="text--wrapper">
         <h3 className="extract">Ukázka z knihy</h3>
-        <p>
+        <p className="extract--text">
           V době, kdy byl Špilberk ještě vězením, zde nuceně pobývalo množství
           provinilců z celého tehdejšího mocnářství. A mezi nimi také vězeň
           číslo 10963, vlastním jménem Sergio Pabio z Neapole, který se jednoho
@@ -95,7 +95,7 @@ const Buy = () => {
       />
       <div className="text--wrapper">
         <h3 className="extract">Ukázka z knihy</h3>
-        <p>
+        <p className="extract--text">
           Náš příběh, jehož součástí se stanete, začal již před řádkou let. Toho
           dne se jeden rybář na břehu Svratky velmi podivil. Na háčku jeho udice
           se zachytila láhev uzavřená velikým špuntem. Sotva ji vylovil a

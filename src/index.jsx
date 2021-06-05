@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <>
-      <section id="home">
+      <section id="home" className="container--separator--pink">
         <header>
           <div className="topbar container">
             <div className="topbar-left">
@@ -101,18 +101,24 @@ const App = () => {
           </div>
         </header>
         <Intro />
+        <div className="wave wave--pink"></div>
       </section>
-      <section id="explore">
+
+      <section id="explore" className="container--separator--white">
         <Explore />
+        <div className="wave wave--white"></div>
       </section>
-      <section id="whyplay">
+      <section id="whyplay" className="container--separator--pink">
         <Whyplay />
+        <div className="wave wave--pink"></div>
       </section>
-      <section id="buy">
+      <section id="buy" className="container--separator--white">
         <Buy />
+        <div className="wave wave--white"></div>
       </section>
-      <section id="faq">
+      <section id="faq" className="container--separator--pink">
         <FAQ />
+        <div className="wave wave--pink"></div>
       </section>
       <section id="contact">
         <Contact />
