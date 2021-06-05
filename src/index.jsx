@@ -17,6 +17,9 @@ import Form from './pages/Form';
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const handleClose = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <>
@@ -56,22 +59,22 @@ const App = () => {
               </button>
               {menuOpen === true ? (
                 <nav className="nav-closed">
-                  <a href="#home" className="nav-link">
+                  <a href="#home" onClick={handleClose} className="nav-link">
                     Domů
                   </a>
-                  <a href="#explore" className="nav-link">
+                  <a href="#explore" onClick={handleClose} className="nav-link">
                     Poznejte své město
                   </a>
-                  <a href="#whyplay" className="nav-link">
+                  <a href="#whyplay" onClick={handleClose} className="nav-link">
                     Proč hrát naše hry
                   </a>
-                  <a href="#buy" className="nav-link">
+                  <a href="#buy" onClick={handleClose} className="nav-link">
                     Koupit hru
                   </a>
-                  <a href="#faq" className="nav-link">
+                  <a href="#faq" onClick={handleClose} className="nav-link">
                     FAQ
                   </a>
-                  <a href="#contact" className="nav-link">
+                  <a href="#contact" onClick={handleClose} className="nav-link">
                     Kontakt
                   </a>
                 </nav>
