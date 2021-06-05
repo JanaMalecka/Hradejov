@@ -10,6 +10,7 @@ import Buy from './pages/Buy';
 import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import faceUrl from './img/face.png';
+import ScrollButton from './components/ScrollButton';
 
 import logoUrl from './img/logo.png';
 
@@ -107,7 +108,9 @@ const App = () => {
       <section id="explore" className="container--separator--white">
         <Explore />
         <div className="wave wave--white"></div>
+        <ScrollButton />
       </section>
+
       <section id="whyplay" className="container--separator--pink">
         <Whyplay />
         <div className="wave wave--pink"></div>

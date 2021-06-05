@@ -43,8 +43,11 @@ const Buy = () => {
         polyká jako noky, jedničky do sebe souká jako špagety a šestky si
         rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá...
       </p>
+      <p>Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
-        <h1>Dát hru Utrhčíslo do košíku a jít k pokladně</h1>
+        <h1 className="heading--small">
+          Vložte Utrhčísla do košíku a tudy k objednávce
+        </h1>
         <div className="basket--price">
           <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img
