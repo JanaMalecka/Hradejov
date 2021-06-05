@@ -8,7 +8,6 @@ const Contact = () => {
       <h1>Kontakt</h1>
       <div className="contact-wrapper">
         <div className="face-wrapper">
-          <p>Facebook: Hradějov</p>
           <div className="icons">
             <a
               href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"

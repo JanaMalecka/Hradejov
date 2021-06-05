@@ -11,6 +11,7 @@ import FAQ from './pages/FAQ';
 import Contact from './pages/Contact';
 import faceUrl from './img/face.png';
 import ScrollButton from './components/ScrollButton';
+import Footer from './components/Footer';
 
 import logoUrl from './img/logo.png';
 
@@ -126,13 +127,7 @@ const App = () => {
       <section id="contact">
         <Contact />
         <footer>
-          <p>
-            2021, © Hradějov: Novotná&Doušek. Všechna práva vyhrazena. Všechny
-            ilustrace a texty her zveřejněné na těchto stránkách jsou dílem
-            autorským ve smyslu ust. § 2 zákona č. 121/2000 Sb. Bez předchozího
-            písemného souhlasu není možno ilustrace a texty her užít zejména ke
-            komerčním účelům.
-          </p>
+          <Footer />
         </footer>
       </section>
     </>
