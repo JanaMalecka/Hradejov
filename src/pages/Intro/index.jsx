@@ -8,14 +8,14 @@ const Intro = () => {
       <div className="intro">
         <h1 className="intro-h1">Hradějov</h1>
         {/* <div className="hradejov"></div> */}
-        {/*  <figure>
+        {/* <figure>
           <div className="image"> */}
         <img
           className="img-hradejov"
           src={hradejovUrl}
           alt="obrázek s hlavními postavičkami Hradějova"
         />
-        {/*   </div>
+        {/*  </div>
         </figure> */}
         <p className="first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
         <p>Kupte si herní plán v podobě knihy a vyražte si hrát do města!</p>

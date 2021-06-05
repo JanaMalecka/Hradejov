@@ -90,6 +90,9 @@ p {
   h1 {
     padding-bottom: 2rem;
   }
+  .nav-link {
+    font-size: 0.8rem;
+  }
 }
 /*...styles for menu.....*/
 
@@ -100,7 +103,6 @@ p {
   min-height: 4rem; /* musi byt min-height, jinak text preteka*/
   max-height: 5rem;
   justify-content: space-between;
-  outline: 10px solid pink;
 }
 .topbar-left {
   display: flex;
@@ -131,14 +133,14 @@ p {
   align-items: flex-end;
   z-index: 1;
   position: relative;
-  background-color: white;
+  /*  background-color: white; */
   z-index: 2;
 }
 
 nav {
   width: 100%;
   padding: 0rem;
-  background-color: white;
+  /*  background-color: white; */
 }
 
 nav a {
@@ -211,7 +213,7 @@ nav a:hover {
   transform: rotate(-45deg);
 }
 
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 1110px) {
   .topbar,
   .header,
   .container,
@@ -225,7 +227,7 @@ nav a:hover {
     display: flex;
     flex-direction: row;
     max-width: 80%;
-    margin-top: 4rem;
+    align-items: center;
     min-height: 3rem;
   }
   nav {
@@ -241,8 +243,8 @@ nav a:hover {
   .nav-open {
     display: flex;
     padding-top: 0rem;
-    align-items: center;
-    align-content: center;
+    /*    */
+    align-content: baseline;
   }
   .hamburger {
     display: none;
