@@ -9,12 +9,7 @@ const Buy = () => {
   const [number, setNumber] = useState(0);
   const [sum, setSum] = useState(0);
   /*nefunguje, useEffect?*/
-  const handleClick = (event) => {
-    event.preventDefault();
-    setNumber(number + 1);
-    console.log(number);
-    setSum(300 * number);
-  };
+  const handleClick = () => {};
   return (
     <div className="container">
       <h1>Koupit hru</h1>
@@ -53,18 +48,15 @@ const Buy = () => {
         rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá...
       </p>
       <div className="btn-wrapper btn-wrapper--basket">
+        <h1>Dát hru Utrhčíslo do košíku a jít k pokladně</h1>
         <div onClick={handleClick} className="basket--price">
-          <a href="" className="btn-basket">
+          <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img
               className="btn icon-basket"
               src={basket2Url}
               alt="ikonka nákupního košíku"
             />
           </a>
-        </div>
-        <div className="basket--price">
-          <div className="counter">Počet kusů: {number} ks * 300,- ks</div>
-          <div className="price">{sum} Kč</div>
         </div>
       </div>
       <h2>Připravujeme</h2>

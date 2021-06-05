@@ -13,8 +13,6 @@ import faceUrl from './img/face.png';
 
 import logoUrl from './img/logo.png';
 
-import Form from './pages/Form';
-
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const handleClose = () => {
@@ -127,7 +125,6 @@ const App = () => {
             komerčním účelům.
           </p>
         </footer>
-        <Form />
       </section>
     </>
   );
