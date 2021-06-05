@@ -7,16 +7,15 @@ const Contact = () => {
     <div className="container">
       <h1>Kontakt</h1>
       <div className="contact-wrapper">
-        <div className="face-wrapper">
-          <div className="icons">
-            <a
-              href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
-              target="_blank"
-            >
-              <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />
-            </a>
-          </div>
+        <div className="icons">
+          <a
+            href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
+            target="_blank"
+          >
+            <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />
+          </a>
         </div>
+
         <p>Email: info@hradejov.cz</p>
       </div>
     </div>

@@ -4,6 +4,7 @@ import coverUrl from './img/cover.png';
 import basket2Url from './img/basket2.png';
 import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
+import Button from '../../components/Button';
 
 const Buy = () => {
   return (
@@ -48,7 +49,8 @@ const Buy = () => {
         <h1 className="heading--small">
           Vložte Utrhčísla do košíku a tudy k objednávce
         </h1>
-        <div className="basket--price">
+        <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="do e-shopu" />
+        {/* <div className="basket--price">
           <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img
               className="btn icon-basket"
@@ -56,7 +58,7 @@ const Buy = () => {
               alt="ikonka nákupního košíku"
             />
           </a>
-        </div>
+        </div> */}
       </div>
       <h2>Připravujeme</h2>
       <h2>Puzzolente</h2>

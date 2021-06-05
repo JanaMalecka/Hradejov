@@ -4,6 +4,7 @@ import './style.css';
 import buildingBlueUrl from './img/buildingBlue.png';
 import book2Url from './img/book2.png';
 import giftPinkUrl from './img/giftPink.png';
+import Button from '../../components/Button';
 
 const Explore = () => {
   return (
@@ -49,11 +50,7 @@ const Explore = () => {
           <img className="icon-gift" src={giftPinkUrl} alt="ikonka dárku" />
         </div>
       </div>
-      <div className="btn-wrapper">
-        <a href="#buy" className="btn-a-href">
-          <button className="btn btn-choose">Koupit hru</button>
-        </a>
-      </div>
+      <Button link="#buy" text="Koupit hru" />
     </div>
   );
 };

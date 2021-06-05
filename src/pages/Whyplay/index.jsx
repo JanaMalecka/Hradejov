@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../../components/Button';
 import './style.css';
 
 const Whyplay = () => {
@@ -33,11 +34,7 @@ const Whyplay = () => {
           </p>
         </div>
       </div>
-      <div className="btn-wrapper">
-        <a href="#buy" className="btn-a-href">
-          <button className="btn btn-choose-2nd">Koupit hru</button>
-        </a>
-      </div>
+      <Button link="#buy" text="Koupit hru" />
     </div>
   );
 };

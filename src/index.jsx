@@ -12,6 +12,7 @@ import Contact from './pages/Contact';
 import faceUrl from './img/face.png';
 import ScrollButton from './components/ScrollButton';
 import Footer from './components/Footer';
+import Button from './components/Button';
 
 import logoUrl from './img/logo.png';
 
