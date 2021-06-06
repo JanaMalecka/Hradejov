@@ -6,6 +6,10 @@
   margin-right: auto;
   border-radius: 0 10px 10px 10px;
   position: relative;
+  box-shadow: 10px 10px 5px #ccc;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
 }
 .intro-h1 {
   font-size: 3rem;

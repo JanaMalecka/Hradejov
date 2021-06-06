@@ -47,15 +47,6 @@ const Buy = () => {
       <p>Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
         <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="E-shop" />
-        {/* <div className="basket--price">
-          <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
-            <img
-              className="btn icon-basket"
-              src={basket2Url}
-              alt="ikonka nákupního košíku"
-            />
-          </a>
-        </div> */}
       </div>
       <h2 className="subtitle margin--large">Připravujeme</h2>
       <h2 className="subtitle">Puzzolente</h2>

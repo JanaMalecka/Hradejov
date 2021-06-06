@@ -36,7 +36,7 @@
   .container-book {
     display: flex;
   }
-  .extract--text {
+  .homepage .extract--text {
     text-align: justify;
   }
 }
