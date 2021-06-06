@@ -10,7 +10,7 @@ const Contact = () => {
         <div className="icons">
           <a
             href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
-            target="_blank"
+            /* target="_blank" */
           >
             <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />
           </a>
