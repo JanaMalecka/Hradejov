@@ -4,12 +4,12 @@ import React, { useState } from 'react';
 import obrazek1 from './img/godel.png'
 import ruzova2 from  './img/ruzova2.svg'
 import Hra from './components/Hra/hra'
+import { Link } from 'react-router-dom';
 
 const GamePage = () => (
-  <>
-  <a href="">
-                Hradejov
-              </a>
+  <div className="game">
+  <Link to="/">Hradějov</Link>
+ 
   <div className="container">
   <header>
   <img src={obrazek1} className="kurt" />
@@ -31,7 +31,7 @@ const GamePage = () => (
    
   </footer>
 </div>
-</>
+</div>
 );
 
 export default GamePage;

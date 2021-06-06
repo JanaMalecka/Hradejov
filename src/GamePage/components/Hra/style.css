@@ -24,7 +24,8 @@ h2 {
 .pNapoveda {
  font-style: italic;
 }
-.mapa
+.mapa,
+.relief
 {
 width: 100%;
 }

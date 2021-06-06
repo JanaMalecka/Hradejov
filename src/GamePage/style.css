@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-@media 
 
-* {
-  box-sizing: border-box;
+
+
+
+
+.game {
+        font-family: 'Spoof';
+        font-feature-settings: "zero","ss02","ss05";
+       
+       /*  position: relative; */
 }
 
-html {
-  font-family: 'Open Sans', sans-serif;
-}
-
-.container {
+/* // prejmenovat  
+.container-game*/
+.game .container {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
