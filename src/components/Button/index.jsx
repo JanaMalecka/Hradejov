@@ -4,7 +4,7 @@ import './style.css';
 const Button = (props) => {
   return (
     <div id="foot">
-      <button className="button-os">
+      <button className="button--main button-os">
         <a href={props.link}>{props.text}</a>
       </button>
     </div>

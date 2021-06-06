@@ -5,7 +5,7 @@ import faceUrl from './img/face.png';
 const Contact = () => {
   return (
     <div className="container">
-      <h1>Kontakt</h1>
+      <h1 className="title">Kontakt</h1>
       <div className="contact-wrapper">
         <div className="icons">
           <a

@@ -24,7 +24,7 @@ const ScrollButton = () => {
   }, []);
 
   return isVisible ? (
-    <button onClick={handleClick} className="arrow">
+    <button onClick={handleClick} className="button--main arrow">
       <img
         className="icon-arrow"
         src={arrowUrl}

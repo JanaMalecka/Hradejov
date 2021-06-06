@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1 className="intro-h1">Hradějov</h1>
+        <h1 className="title intro-h1">Hradějov</h1>
 
         <img
           className="img-hradejov"

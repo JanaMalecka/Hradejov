@@ -9,7 +9,7 @@ import Button from '../../components/Button';
 const Buy = () => {
   return (
     <div className="container">
-      <h1>Koupit hru</h1>
+      <h1 className="title">Koupit hru</h1>
       <div className="container-book">
         <div className="book-wrapper">
           <img
@@ -18,7 +18,7 @@ const Buy = () => {
             alt="Obálka knihy s pohádkovou postavou Uthrčísla"
           />
 
-          <h2>Utrhčíslo</h2>
+          <h2 className="subtitle">Utrhčíslo</h2>
           <div className="text--wrapper">
             <p>Délka trasy: cca 2 km</p>
             <p>Odhadovaná doba trvání hry: 1 hod 30 min</p>
@@ -33,7 +33,7 @@ const Buy = () => {
           </p>
         </div>
       </div>
-      <h3 className="extract">Ukázka z knihy</h3>
+      <h3 className="subtitle--small extract">Ukázka z knihy</h3>
       <p>
         Ahoj děti, znáte Utrhčísla? Že ne? Tak to si – tuším – jen myslíte. I
         když jste ho možná nikdy nepotkaly, jeho práci znáte jistě velmi dobře.
@@ -60,16 +60,16 @@ const Buy = () => {
           </a>
         </div> */}
       </div>
-      <h2 className="margin--large">Připravujeme</h2>
-      <h2>Puzzolente</h2>
+      <h2 className="subtitle margin--large">Připravujeme</h2>
+      <h2 className="subtitle">Puzzolente</h2>
       <img
         className="book"
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
       <div className="text--wrapper">
-        <h3 className="extract">Ukázka z knihy</h3>
-        <p className="extract--text">
+        <h3 className="subtitle--small extract">Ukázka z knihy</h3>
+        <p className="paragraph extract--text">
           V době, kdy byl Špilberk ještě vězením, zde nuceně pobývalo množství
           provinilců z celého tehdejšího mocnářství. A mezi nimi také vězeň
           číslo 10963, vlastním jménem Sergio Pabio z Neapole, který se jednoho
@@ -92,14 +92,14 @@ const Buy = () => {
           se narodil Puzzolente...
         </p>
       </div>
-      <h2>Omylem</h2>
+      <h2 className="subtitle">Omylem</h2>
       <img
         className="book"
         src={omylemUrl}
         alt="obrázek pohádkové postavy Omylem"
       />
       <div className="text--wrapper">
-        <h3 className="extract">Ukázka z knihy</h3>
+        <h3 className="subtitle--small extract">Ukázka z knihy</h3>
         <p className="extract--text">
           Náš příběh, jehož součástí se stanete, začal již před řádkou let. Toho
           dne se jeden rybář na břehu Svratky velmi podivil. Na háčku jeho udice
@@ -121,11 +121,8 @@ const Buy = () => {
           nepříjemnosti...
         </p>
       </div>
-      <h2 className="last">Hra Utrhčíslo</h2>
+      <h2 className="subtitle last">Hra Utrhčíslo</h2>
       <Button text="Ukázka hry" link="" />
-      {/* <div className="btn-wrapper">
-        <button className="btn">Podívejte se na ukázku hry</button>
-      </div> */}
     </div>
   );
 };

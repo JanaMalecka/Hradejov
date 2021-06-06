@@ -13,36 +13,51 @@ import Footer from '../../components/Footer';
 
 const Home = () => {
   return (
-    <>
-      <section id="home" className="container--separator--pink">
+    <div className="homepage">
+      <section
+        id="home"
+        className="section-container container--separator--pink"
+      >
         <Header />
         <Intro />
         <div className="wave wave--pink"></div>
       </section>
-      <section id="explore" className="container--separator--white">
+      <section
+        id="explore"
+        className="section-container container--separator--white"
+      >
         <Explore />
         <div className="wave wave--white"></div>
         <ScrollButton />
       </section>
-      <section id="whyplay" className="container--separator--pink">
+      <section
+        id="whyplay"
+        className="section-container container--separator--pink"
+      >
         <Whyplay />
         <div className="wave wave--pink"></div>
       </section>
-      <section id="buy" className="container--separator--white">
+      <section
+        id="buy"
+        className="section-container container--separator--white"
+      >
         <Buy />
         <div className="wave wave--white"></div>
       </section>
-      <section id="faq" className="container--separator--pink">
+      <section
+        id="faq"
+        className="section-container container--separator--pink"
+      >
         <FAQ />
         <div className="wave wave--pink"></div>
       </section>
-      <section id="contact">
+      <section id="contact" className="section-container ">
         <Contact />
         <footer>
           <Footer />
         </footer>
       </section>
-    </>
+    </div>
   );
 };
 

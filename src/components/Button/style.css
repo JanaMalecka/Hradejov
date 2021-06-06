@@ -1,10 +1,10 @@
-button {
+.button--main {
   border: none;
   border-radius: 15px;
   box-shadow: 0 0 8px rgb(207, 207, 207);
 }
 
-button:hover {
+.button--main:hover {
   border: none;
   padding: 15px;
   border-radius: 15px;

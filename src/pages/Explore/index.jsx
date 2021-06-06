@@ -9,7 +9,7 @@ import Button from '../../components/Button';
 const Explore = () => {
   return (
     <div className="container">
-      <h1>Poznejte své město</h1>
+      <h1 className="title">Poznejte své město</h1>
       <p>
         V Brně se toho hodně děje. Staví se nové domy, opravují se ty staré,
         rodiče pospíchají do práce a děti do školky či školy. Ale žijí tu i jiné
