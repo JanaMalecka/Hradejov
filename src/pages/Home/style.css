@@ -1,4 +1,4 @@
-/*...separatory stranek...*/
+/*...page separators...*/
 
 .container--separator--pink {
   position: relative;
@@ -58,15 +58,15 @@
 }
 /*..................*/
 
-.first__page--background {
-  background-color: #f2d0ed;
-}
 .container,
 header,
 footer {
   margin-left: auto;
   margin-right: auto;
   background-color: inherit;
+}
+.container {
+  position: relative;
 }
 .section-container {
   margin-top: -1rem;
@@ -83,7 +83,9 @@ footer {
 .title {
   text-align: center;
 }
-
+.homepage {
+  overflow: hidden;
+}
 .homepage p {
   text-align: center;
   margin-top: 2rem;
@@ -91,9 +93,6 @@ footer {
   padding-right: 1.5rem;
 }
 
-.container {
-  position: relative;
-}
 .btn-wrapper {
   display: flex;
   padding-top: 2rem;
@@ -113,8 +112,7 @@ footer {
   font-size: 1rem;
   cursor: pointer;
 }
-/*...last dela mezeru mezi poslednim textem/ikonkou na strance a buttonem....*/
-
+/*...class "last" puts space between the last text/icon on page and button....*/
 .last {
   padding-bottom: 3rem;
 }
@@ -123,8 +121,6 @@ footer {
     padding-bottom: 2rem;
   }
 }
-
-/*...styles for menu.....*/
 
 @media screen and (min-width: 1110px) {
   header,

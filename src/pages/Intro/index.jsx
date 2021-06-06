@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import './style.css';
-import hradejovUrl from './img/hradejov.png';
+import hradejovUrl from './img/hradejov.jpg';
 import Button from '../../components/Button';
 
 const Intro = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1 className="title intro-h1">Hradějov</h1>
-
+        <h1 className="title title-intro">Hradějov</h1>
         <img
           className="img-hradejov"
           src={hradejovUrl}

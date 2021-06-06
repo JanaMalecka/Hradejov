@@ -32,7 +32,7 @@ const FAQ = () => {
         Pro každý výtisk herního plánu je připravena jedna výhra. Pro její
         získání zašlete výsledné číslo ze hry spolu s číslem herního plánu z
         tiráže a vaši korespondenční adresu na info@hradejov.cz. Výhru vám
-        zašleme poštou. V případě zájmu o více výhor nás kontaktujte na témže
+        zašleme poštou. V případě zájmu o více výher nás kontaktujte na témže
         emailu.
       </p>
       <h3 className="subtitle--small heading--small">Jak dlouho trvá hra?</h3>

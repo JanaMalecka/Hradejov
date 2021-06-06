@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './style.css';
-import coverUrl from './img/cover.png';
-import basket2Url from './img/basket2.png';
+import coverUrl from './img/cover.jpg';
 import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 import Button from '../../components/Button';
@@ -19,7 +18,7 @@ const Buy = () => {
           />
 
           <h2 className="subtitle">Utrhčíslo</h2>
-          <div className="text--wrapper">
+          <div className="text-wrapper">
             <p>Délka trasy: cca 2 km</p>
             <p>Odhadovaná doba trvání hry: 1 hod 30 min</p>
             <p>
@@ -55,9 +54,9 @@ const Buy = () => {
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
-      <div className="text--wrapper">
+      <div className="text-wrapper">
         <h3 className="subtitle--small extract">Ukázka z knihy</h3>
-        <p className="paragraph extract--text">
+        <p className="paragraph extract-text">
           V době, kdy byl Špilberk ještě vězením, zde nuceně pobývalo množství
           provinilců z celého tehdejšího mocnářství. A mezi nimi také vězeň
           číslo 10963, vlastním jménem Sergio Pabio z Neapole, který se jednoho
@@ -86,9 +85,9 @@ const Buy = () => {
         src={omylemUrl}
         alt="obrázek pohádkové postavy Omylem"
       />
-      <div className="text--wrapper">
+      <div className="text-wrapper">
         <h3 className="subtitle--small extract">Ukázka z knihy</h3>
-        <p className="extract--text">
+        <p className="extract-text">
           Náš příběh, jehož součástí se stanete, začal již před řádkou let. Toho
           dne se jeden rybář na břehu Svratky velmi podivil. Na háčku jeho udice
           se zachytila láhev uzavřená velikým špuntem. Sotva ji vylovil a

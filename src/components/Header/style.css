@@ -2,7 +2,7 @@
   display: flex;
   max-width: 98%;
   padding: 0 0 1rem 0;
-  min-height: 4rem; /* musi byt min-height, jinak text preteka*/
+  min-height: 4rem; /* min-height must be set otherwise text is overflowing */
   max-height: 5rem;
   justify-content: space-between;
 }
@@ -14,7 +14,6 @@
   align-items: flex-end;
   z-index: 1;
   position: relative;
-  /*  background-color: white; */
   z-index: 2;
 }
 
@@ -36,7 +35,7 @@ nav a {
   color: #1976a5;
   border-bottom: 2px solid transparent;
 }
-/*...border-bottom je nutne mit u nav a i u nav a:hover...jinak by odskakovalo*/
+/*...border-bottom must be at "nav a" and "nav a:hover" otherwise it jumps about*/
 
 nav a:hover {
   border-bottom: 2px solid #1976a5;

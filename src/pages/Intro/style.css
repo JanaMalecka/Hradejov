@@ -11,12 +11,11 @@
   -webkit-box-shadow: 10px 10px 5px #ccc;
   -khtml-box-shadow: 10px 10px 5px #ccc;
 }
-.intro-h1 {
+.title-intro {
   font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0rem;
-  /*  text-align: center; */
-  left: calc(50% / 2 - 2rem);
+  text-align: center;
   z-index: 1;
 }
 
@@ -43,7 +42,7 @@
   .img-hradejov {
     max-width: 60%;
   }
-  .intro-h1 {
+  .intro-title {
     font-size: 5rem;
   }
 }
