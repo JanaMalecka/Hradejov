@@ -15,8 +15,12 @@ const Intro = () => {
           alt="obrázek s hlavními postavičkami Hradějova"
         />
         <p className="first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
-        <p>Kupte si herní plán v podobě knihy a vyražte si hrát do města!</p>
-        <p>Hry v reálném prostředí města Brna pro děti ve věku 4–10 </p>
+        <p className="second">
+          Kupte si herní plán v podobě knihy a vyražte si hrát do města!
+        </p>
+        <p className="last">
+          Hry v reálném prostředí města Brna pro děti ve věku 4–10{' '}
+        </p>
         <Button link="#buy" text="Koupit hru" />
       </div>
     </div>

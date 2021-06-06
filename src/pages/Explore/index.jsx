@@ -47,7 +47,11 @@ const Explore = () => {
         </div>
         <div className="column-third">
           <p>Vyřeš úkoly, budeš odměněn</p>
-          <img className="icon-gift" src={giftPinkUrl} alt="ikonka dárku" />
+          <img
+            className="icon-gift last"
+            src={giftPinkUrl}
+            alt="ikonka dárku"
+          />
         </div>
       </div>
       <Button link="#buy" text="Koupit hru" />

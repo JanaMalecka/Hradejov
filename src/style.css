@@ -68,7 +68,6 @@ html {
   background-color: #f2d0ed;
 }
 
-/*.....*/
 .container--separator--white {
   position: relative;
   background: #fff;
@@ -83,7 +82,13 @@ html {
 .wave--white::after {
   background-color: #fff;
 }
-
+/*..................*/
+/*.nav-link {
+  border: none;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: inset 0 0 8px #f9f8fc;
+}*/
 body {
   margin: 0;
   background-color: white;
@@ -145,6 +150,10 @@ p {
   border-radius: 30%;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.last {
+  padding-bottom: 3rem;
 }
 @media screen and (min-width: 780px) {
   h1 {
@@ -213,6 +222,7 @@ nav a {
   text-decoration: none;
   /*  color: #15594d; */
   color: #1976a5;
+  border-bottom: 2px solid transparent;
 }
 nav a:hover {
   border-bottom: 2px solid #1976a5;

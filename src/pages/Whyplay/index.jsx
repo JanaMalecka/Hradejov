@@ -27,7 +27,7 @@ const Whyplay = () => {
         </div>
         <div className="column-third">
           <h3>Pohyb</h3>
-          <p>
+          <p className="last">
             Kdo by nechtěl, aby se jeho dítě více pohybovalo, než aby bylo
             baveno pasivně? Přidanou hodnotou našich her je pohyb ve městě,
             parcích, promenádách, hřištích, náměstích, jednoduše v ulicích Brna.

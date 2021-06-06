@@ -121,7 +121,7 @@ const Buy = () => {
           nepříjemnosti...
         </p>
       </div>
-      <h2>Hra Utrhčíslo</h2>
+      <h2 className="last">Hra Utrhčíslo</h2>
       <Button text="Ukázka hry" link="" />
       {/* <div className="btn-wrapper">
         <button className="btn">Podívejte se na ukázku hry</button>
