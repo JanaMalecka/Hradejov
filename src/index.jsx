@@ -4,17 +4,13 @@ import './style.css';
 
 import Home from './pages/Home';
 import GamePage from './GamePage';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
 const App = () => {
-
-  return(
+  return (
     <Router>
+      <ScrollToTop />
       <Switch>
         <Route path="/" exact>
           <Home />;
@@ -22,11 +18,9 @@ const App = () => {
         <Route path="/game">
           <GamePage />
         </Route>
-        </Switch>
-        </Router>
-  
-
-  ) 
+      </Switch>
+    </Router>
+  );
 };
 
 render(<App />, document.querySelector('#app'));

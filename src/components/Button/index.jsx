@@ -5,7 +5,7 @@ const Button = (props) => {
   return (
     <div id="foot">
       <button className="button-main button-os">
-        <a href={props.link}>{props.text}</a>
+        {props.link ? <a href={props.link}>{props.text}</a> : props.text}
       </button>
     </div>
   );

@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
 import coverUrl from './img/cover.jpg';
 import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 import Button from '../../components/Button';
+import { Link, useLocation } from 'react-router-dom';
 
 const Buy = () => {
   return (
@@ -109,7 +110,9 @@ const Buy = () => {
         </p>
       </div>
       <h2 className="subtitle last">Hra Utrhčíslo</h2>
-      <Button text="Ukázka hry" link="" />
+      <Link to="/game">
+        <Button text="Ukázka hry" />
+      </Link>
     </div>
   );
 };
