@@ -46,10 +46,10 @@ const Buy = () => {
       </p>
       <p>Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
-        <h1 className="heading--small">
-          Vložte Utrhčísla do košíku a tudy k objednávce
-        </h1>
-        <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="do e-shopu" />
+        <Button
+          link="https://form.simpleshop.cz/8Oy6/buy/"
+          text="Tudy do e-shopu"
+        />
         {/* <div className="basket--price">
           <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img
@@ -60,7 +60,7 @@ const Buy = () => {
           </a>
         </div> */}
       </div>
-      <h2>Připravujeme</h2>
+      <h2 className="margin--large">Připravujeme</h2>
       <h2>Puzzolente</h2>
       <img
         className="book"
@@ -122,12 +122,10 @@ const Buy = () => {
         </p>
       </div>
       <h2>Hra Utrhčíslo</h2>
-      <div className="btn-wrapper">
-        <button className="btn">
-          Podívejte se na ukázku hry, kterou pro Vás jistě stihneme
-          naprogramovat...
-        </button>
-      </div>
+      <Button text="Ukázka hry" link="" />
+      {/* <div className="btn-wrapper">
+        <button className="btn">Podívejte se na ukázku hry</button>
+      </div> */}
     </div>
   );
 };

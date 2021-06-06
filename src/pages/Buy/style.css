@@ -15,8 +15,9 @@ h2 {
 }
 .btn-wrapper--basket {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+}
+.margin--large {
+  margin-top: 6rem;
 }
 .price {
   font-size: 2rem;
