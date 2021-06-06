@@ -1,0 +1,148 @@
+/*...separatory stranek...*/
+
+.container--separator--pink {
+  position: relative;
+  background: #f2d0ed;
+}
+.wave {
+  position: absolute;
+  height: 103px;
+  width: 100%;
+  bottom: 0;
+}
+.wave--pink {
+  background: #f2d0ed;
+}
+
+.wave::before,
+.wave::after {
+  content: '';
+  display: block;
+  position: absolute;
+  border-radius: 100% 50%;
+  z-index: 100;
+}
+
+.wave::before {
+  width: 55%;
+  height: 109%;
+  right: -1.5%;
+  top: 60%;
+}
+.wave--pink::before {
+  background-color: #fff;
+}
+.wave::after {
+  width: 55%;
+  height: 100%;
+  left: -1.5%;
+  top: 40%;
+}
+.wave--pink::after {
+  background-color: #f2d0ed;
+}
+
+.container--separator--white {
+  position: relative;
+  background: #fff;
+}
+.wave--white {
+  background: white;
+}
+
+.wave--white::before {
+  background-color: #f2d0ed;
+}
+.wave--white::after {
+  background-color: #fff;
+}
+/*..................*/
+
+.first__page--background {
+  background-color: #f2d0ed;
+}
+.container,
+header,
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: inherit;
+}
+section {
+  margin-top: -1rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  margin-bottom: 1rem;
+}
+h1,
+h2 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin-top: 2rem;
+}
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container {
+  position: relative;
+}
+.btn-wrapper {
+  display: flex;
+  padding-top: 2rem;
+}
+.btn-a-href {
+  margin: auto;
+  text-decoration: none;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  min-width: 10rem;
+  height: 6rem;
+  border-radius: 30%;
+  font-size: 1rem;
+  cursor: pointer;
+}
+/*...last dela mezeru mezi poslednim textem/ikonkou na strance a buttonem....*/
+
+.last {
+  padding-bottom: 3rem;
+}
+@media screen and (min-width: 780px) {
+  h1 {
+    padding-bottom: 2rem;
+  }
+}
+
+/*...styles for menu.....*/
+
+@media screen and (min-width: 1110px) {
+  .topbar,
+  .header,
+  .container,
+  footer {
+    max-width: 80%;
+  }
+  .topbar-left {
+    max-width: 20%;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .topbar,
+  .header,
+  .container,
+  footer {
+    max-width: 75%;
+  }
+}
