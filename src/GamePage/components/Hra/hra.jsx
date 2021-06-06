@@ -36,12 +36,14 @@ const Hra = () => {
           dolů a jazykem je jako mravenečník lapal. A to bylo jediné štěstí, 
           jinak by jich zde bylo zanedlouho tolik, že by se strop pod nimi probořil, anebo by dům prasknul. 
          </p>
+         <section>
         <h2>
         Na pamětní desce Kurta Gödela naleznete data, která vymezují jeho život. 
         Zapište si třetí číslo, tedy to, které udává, ve kterém měsíci se matematik narodil. 
         </h2>
         <img src={relief} className="mapa" />
-        <p>Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“, případně „pamětní deska matematika Gödela“
+        </section>
+        <p className="pNapoveda">Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“, případně „pamětní deska matematika Gödela“
              u každého úkolu máme fotku z reálného prostředí jakožto nápovědu. </p>
           <form >
               <h2>Vaše odpověď</h2>

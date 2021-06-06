@@ -8,13 +8,13 @@ import Hra from './components/Hra/hra'
 const GamePage = () => (
   <>
   <a href="">
-                Domů
+                Hradejov
               </a>
   <div className="container">
   <header>
   <img src={obrazek1} className="kurt" />
 {/*    <img src={obrazek} /> */}
-    <h1>ZKOUŠKOVA HRA
+    <h1>UKÁZKOVÁ HRA
       
       UTRHCISLO
     </h1>
@@ -25,7 +25,7 @@ const GamePage = () => (
 <Hra />
   </main>
   <a href="">
-                Domů
+                Nahoru
               </a>
   <footer>
    
