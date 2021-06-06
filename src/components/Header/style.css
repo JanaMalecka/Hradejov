@@ -77,8 +77,11 @@ nav a:hover {
   border: none;
   background-color: transparent;
   cursor: pointer;
+  box-shadow: none;
 }
-
+.hamburger:hover {
+  box-shadow: none;
+}
 .hamburger span {
   position: absolute;
   top: calc(50% / 2);
@@ -124,10 +127,6 @@ nav a:hover {
   }
   .navigation {
     max-width: 75%;
-  }
-
-  .nav-closed {
-    display: none;
   }
 }
 @media screen and (min-width: 780px) {
