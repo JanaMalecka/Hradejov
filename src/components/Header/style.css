@@ -33,12 +33,16 @@ nav a {
   text-decoration: none;
   /*  color: #15594d; */
   color: #1976a5;
-  border-bottom: 2px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-radius: 20%;
+  /* border-bottom: 2px solid transparent; */
 }
 /*...border-bottom must be at "nav a" and "nav a:hover" otherwise it jumps about*/
 
 nav a:hover {
-  border-bottom: 2px solid #1976a5;
+  border-bottom: 3px solid #cb1477;
+  border-radius: 10%;
+  /*   border-bottom: 2px solid #1976a5; */
 }
 .nav-open {
   display: none;
