@@ -20,7 +20,7 @@ const Header = () => {
           />
           <div className="icons">
             <a
-              href="https://www.facebook.com/search/top/?q=hrad%C4%9Bjov"
+              href="https://www.facebook.com/hradejov.cz/"
               /* target="_blank" */
             >
               <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />

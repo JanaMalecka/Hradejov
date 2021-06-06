@@ -46,10 +46,7 @@ const Buy = () => {
       </p>
       <p>Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
-        <Button
-          link="https://form.simpleshop.cz/8Oy6/buy/"
-          text="Tudy do e-shopu"
-        />
+        <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="E-shop" />
         {/* <div className="basket--price">
           <a href="https://form.simpleshop.cz/8Oy6/buy/" className="btn-basket">
             <img

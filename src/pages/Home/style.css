@@ -127,8 +127,8 @@ footer {
 /*...styles for menu.....*/
 
 @media screen and (min-width: 1110px) {
+  header,
   .topbar,
-  .header,
   .container,
   footer {
     max-width: 80%;
@@ -139,8 +139,8 @@ footer {
 }
 
 @media screen and (min-width: 980px) {
+  header,
   .topbar,
-  .header,
   .container,
   footer {
     max-width: 75%;
