@@ -8,7 +8,7 @@ const [isEmpty, setisEmpty]=useState (true)
 console.log(isAnswerOk && !isEmpty)
 return (
     <>
-<div className=".kolecko">
+<div className=".odpoved">
 
     <input onChange={(event)=>{
         const cislo = parseInt( event.target.value);

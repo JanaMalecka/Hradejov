@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 const GamePage = () => (
   <div className="game">
-    <Link to="/">Hradějov</Link>
+    <Link to="/" className="link">Hradějov</Link>
 
     <div className="container">
       <header>
