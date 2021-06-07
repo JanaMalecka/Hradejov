@@ -6,7 +6,15 @@
   font-weight: bold;
   border-radius: 50%;
 }
-.icon-book {
+.icon-building,
+.icon-book,
+.icon-gift {
+  width: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+.icon-book--bigger {
   height: 4rem;
   width: 5rem;
 }

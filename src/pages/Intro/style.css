@@ -4,15 +4,14 @@
   height: auto;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 0 10px 10px 10px;
   position: relative;
-  box-shadow: 10px 10px 5px #ccc;
-  -moz-box-shadow: 10px 10px 5px #ccc;
-  -webkit-box-shadow: 10px 10px 5px #ccc;
-  -khtml-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -moz-box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -webkit-box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -khtml-box-shadow: 10px 10px 5px rgb(66, 65, 65);
 }
 .title-intro {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 500;
   margin-bottom: 0rem;
   text-align: center;
@@ -42,7 +41,13 @@
   .img-hradejov {
     max-width: 60%;
   }
-  .intro-title {
+  .title-intro {
     font-size: 5rem;
+    padding-bottom: 0rem;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .title-intro {
+    font-size: 8rem;
   }
 }

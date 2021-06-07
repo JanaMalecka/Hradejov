@@ -28,9 +28,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: white;
-  /* color: #15594d; */
-  /* color: #1976a5; ta modra pouzita!!!*/
-  /*  color: #268f90; */
-  color: white;
+  background-color: #fff;
+  color: #1976a5;
 }

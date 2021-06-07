@@ -43,7 +43,11 @@ const Explore = () => {
         </div>
         <div className="column-second">
           <p>Hraj za pomoci knihy</p>
-          <img className="icon-book" src={book2Url} alt="ikonka knihy" />
+          <img
+            className="icon-book icon-book--bigger"
+            src={book2Url}
+            alt="ikonka knihy"
+          />
         </div>
         <div className="column-third">
           <p>Vyřeš úkoly, budeš odměněn</p>
