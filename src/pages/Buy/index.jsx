@@ -19,22 +19,10 @@ const Buy = () => {
           />
 
           <h2 className="subtitle">Utrhčíslo</h2>
-          <div className="text-wrapper">
-            <p>Délka trasy: cca 2 km</p>
-            <p>Odhadovaná doba trvání hry: 1 hod 30 min</p>
-            <p>
-              Start – Cíl: Šilingrovo náměstí – druhé nádvoří hradu Špilberk
-            </p>
-            <p />
-          </div>
-          <p>
-            K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
-            zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
-          </p>
         </div>
       </div>
       <h3 className="subtitle--small extract">Ukázka z knihy</h3>
-      <p>
+      <p className="paragraph extract-text">
         Ahoj děti, znáte Utrhčísla? Že ne? Tak to si – tuším – jen myslíte. I
         když jste ho možná nikdy nepotkaly, jeho práci znáte jistě velmi dobře.
         Je to malá bytost, kulatého, zavalitého tělíčka s krátkými nožičkami a
@@ -44,17 +32,28 @@ const Buy = () => {
         polyká jako noky, jedničky do sebe souká jako špagety a šestky si
         rozmotává a ukusuje jako závitky. Mezi čísly si ale vybírá...
       </p>
+      <div className="text-wrapper">
+        <p>Délka trasy: cca 2 km</p>
+        <p>Odhadovaná doba trvání hry: 1 hod 30 min</p>
+        <p>Start – Cíl: Šilingrovo náměstí – druhé nádvoří hradu Špilberk</p>
+        <p />
+      </div>
+      <p>
+        K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
+        zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
+      </p>
       <p>Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
         <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="E-shop" />
       </div>
       <h2 className="subtitle margin--large">Připravujeme</h2>
-      <h2 className="subtitle">Puzzolente</h2>
+
       <img
         className="book"
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
+      <h2 className="subtitle">Puzzolente</h2>
       <div className="text-wrapper">
         <h3 className="subtitle--small extract">Ukázka z knihy</h3>
         <p className="paragraph extract-text">
@@ -69,7 +68,7 @@ const Buy = () => {
           sklepmistry pro žejdlík piva či korbel vína – zatímco on musí ležet
           sám, na tvrdém kavalci o chlebu a vodě.
         </p>
-        <p>
+        <p className="paragraph extract-text last">
           A tak přemýšlel, jak by se zmenšil, proklouzl zamřížovaným okénkem ven
           a tam dozorcům sfouknul všechny lucerny, rozkutálel do pyramid
           seskládané dělové koule či jim naplival do tabáku a na sirky. Jó, to
@@ -97,7 +96,7 @@ const Buy = () => {
           „Si piš, že to bylo omylem!“. Netušil, že se mu pidižvík právě
           představil.
         </p>
-        <p>
+        <p className="paragraph extract-text last">
           Už se vám, děti, někdy ztratila nějaká hračka či pastelka, a posléze
           se našla? Záhada ušatá, viďte? Ono totiž není zcela vyloučeno, že v
           tom měl prsty právě tenhleten Omylem. Budulín, trochu potměšilý, ve

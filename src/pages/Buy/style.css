@@ -2,8 +2,13 @@
   max-width: 50%;
   display: flex;
   margin: auto;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  /*  padding-right: 1rem; */
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+  box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -moz-box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -webkit-box-shadow: 10px 10px 5px rgb(66, 65, 65);
+  -khtml-box-shadow: 10px 10px 5px rgb(66, 65, 65);
 }
 .subtitle {
   text-align: center;
@@ -30,14 +35,23 @@
 .extract {
   padding-left: 2rem;
 }
+.homepage .extract-text {
+  text-align: justify;
+}
 @media screen and (min-width: 780px) {
   .book {
-    float: left;
+    /* float: left; */
+    max-width: 70%;
   }
-  .container-book {
+  /* .container-book {
     display: flex;
-  }
+  } */
   .homepage .extract-text {
     text-align: justify;
+  }
+}
+@media screen and (min-width: 780px) {
+  .book {
+    max-width: 50%;
   }
 }

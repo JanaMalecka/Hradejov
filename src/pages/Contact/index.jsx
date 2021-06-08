@@ -16,7 +16,9 @@ const Contact = () => {
           </a>
         </div>
 
-        <p>Email: info@hradejov.cz</p>
+        <p>
+          Email: <a href="mailto:info@hradejov.cz">info@hradejov.cz</a>
+        </p>
       </div>
     </div>
   );
