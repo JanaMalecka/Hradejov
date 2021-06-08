@@ -25,7 +25,8 @@
   width: 200px;
   height: 65px;
   /* background-color: #d9d4e7; */
-  background-color: #cb1477;
+  /*  background-color: #cb1477; ostre ruzova*/
+  background-color: #1976a5;
   animation-duration: 5s;
 }
 
@@ -63,4 +64,9 @@
 
 .button-os a:hover {
   letter-spacing: 5px;
+}
+#foot button {
+  font-family: 'PreissigPoster';
+  font-size: 1rem;
+  color: #1976a5;
 }
