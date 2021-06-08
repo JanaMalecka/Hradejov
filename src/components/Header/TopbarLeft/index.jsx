@@ -6,11 +6,13 @@ import logoUrl from './img/logo.png';
 const TopbarLeft = () => {
   return (
     <div className="topbar-left">
-      <img
-        className="site-logo"
-        src={logoUrl}
-        alt="otevřená kniha s názvem Hradějov jako logo stránek"
-      />
+      <a href="#home">
+        <img
+          className="site-logo"
+          src={logoUrl}
+          alt="otevřená kniha s názvem Hradějov jako logo stránek"
+        />
+      </a>
       {/*  <div className="icons">
         <a href="https://www.facebook.com/hradejov.cz/">
           <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />

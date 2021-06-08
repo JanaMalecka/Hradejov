@@ -39,7 +39,7 @@
 
 @media screen and (min-width: 780px) {
   .img-hradejov {
-    max-width: 60%;
+    max-width: 100%;
   }
   .title-intro {
     font-size: 5rem;
