@@ -3,10 +3,18 @@
   justify-content: space-around;
   padding-bottom: 3rem;
 }
-
+a:link {
+  color: #1976a5;
+}
+.icon-fb {
+  filter: invert(10%);
+}
 @media screen and (min-width: 780px) {
   .contact-wrapper {
     display: flex;
     /* justify-content: flex-start; */
+  }
+  .icon-fb:hover {
+    filter: invert(0%);
   }
 }
