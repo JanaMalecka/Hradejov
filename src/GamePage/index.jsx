@@ -1,6 +1,6 @@
 import './style.css';
 import React, { useState } from 'react';
-import obrazek1 from './img/godel.png';
+import obrazek1 from './img/godel.gif';
 import ruzova2 from './img/ruzova2.svg';
 import Hra from './components/Hra/hra';
 import { Link } from 'react-router-dom';

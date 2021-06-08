@@ -1,27 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-.link{
-        font-family: Spoof,Helvetica,Arial,serif;
-        text-decoration: none;
-    }
+
 .game {
-   margin-top: 10px;  
-   margin-left: 30px;
+   margin-top: 20px;  
+   margin-left: 20px;
    margin-right: 10px;   
   font-family: 'Spoof';
   font-feature-settings: 'zero', 'ss02', 'ss05';
   /*  position: relative; */
 }
+.link{
+        font-family: Spoof,Helvetica,Arial,serif;
+        text-decoration: none;
+        transform: rotate(90deg);   
+    }
 
 .game a {
  text-decoration: none;
- margin-top: 20px;
+ margin-top: 30px;
  margin-left: 0px;
  margin-bottom: 20px;
-
-position: fixed;
+ position: fixed;
+ color:#FF6FDD;
 }
 
+.game a:hover{
+        color:#14dcc1;
+}
 .game .container {
   max-width: 26rem;
   margin-right: auto;

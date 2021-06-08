@@ -48,9 +48,10 @@ const Hra = () => {
      <Hint />
      
         {/* <img src={relief} className="relief" /> */}
-      
-        <p className="pNapoveda">Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“, případně „pamětní deska matematika Gödela“
-            fotka z reálného prostředí. </p> 
+      <div className="napoveda">
+        <p className="pNapoveda">Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“,  „pamětní deska matematika Gödela“
+            fotografie z reálného prostředí. </p> 
+            </div>
               </section>  
              <section> 
              <h2>Vaše odpověď</h2> 
