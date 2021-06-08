@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-import mapa from './mapacb.png'
+import mapa from './mapacbMo.png'
 /* import relief from './relief0.jpg' */
 import Hint from '../Hint';
 import Odpoved from '../Odpoved';
@@ -44,21 +44,20 @@ const Hra = () => {
         Na pamětní desce Kurta Gödela naleznete data, která vymezují jeho život. 
         Zapište si třetí číslo, tedy to, které udává, ve kterém měsíci se matematik narodil. 
         </h2>
-     {/*    // tady dam komponentu */}
-   {/*   <Button /> */}
+        {/*   <Button /> */}
      <Hint />
      
         {/* <img src={relief} className="relief" /> */}
-        </section>
-        <p className="pNapoveda">Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“, případně „pamětní deska matematika Gödela“
-             u každého úkolu máme fotku z reálného prostředí jakožto nápovědu. </p>
-         
+      <div className="napoveda">
+        <p className="pNapoveda">Text k nápovědě: „V tomto domě bydlel matematik Kurt Gödel“,  „pamětní deska matematika Gödela“
+            fotografie z reálného prostředí. </p> 
+            </div>
+              </section>  
+             <section> 
              <h2>Vaše odpověď</h2> 
               <Odpoved />
-             
-        {/*       <form >
-              <input className="input"></input>
-          </form> */}
+              </section>     
+       
         </>
 
     );

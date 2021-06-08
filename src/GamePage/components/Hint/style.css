@@ -1,0 +1,21 @@
+/* .button{
+    
+}
+ */
+#btnHint {
+  /*   display: block;   */
+    font-size: 20px;
+    border-width: none;
+    border-color: none;
+    border-style: none;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: #14dcc1;
+    color:white;
+    align-self:center 
+  
+ 
+   
+
+}

@@ -8,9 +8,9 @@ const [isEmpty, setisEmpty]=useState (true)
 console.log(isAnswerOk && !isEmpty)
 return (
     <>
-<div className=".kolecko">
+<div className="odpoved">
 
-    <input onChange={(event)=>{
+    <input id="input" onChange={(event)=>{
         const cislo = parseInt( event.target.value);
         if (isEmpty){setisEmpty(false)};
         if (cislo===3) 
@@ -21,8 +21,8 @@ return (
         setisAnswerOk(false);}
     } 
 }  disabled={isAnswerOk} /> 
-</div>
-<div>
+
+
 {!isEmpty && ( isAnswerOk ? <p>ano </p>:<p>nenene zkus znovu</p>)}
 </div>
 </>
