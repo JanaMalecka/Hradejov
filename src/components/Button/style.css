@@ -24,7 +24,9 @@
   box-shadow: 0 0 8px #d9d4e7;
   width: 200px;
   height: 65px;
-  background-color: #d9d4e7;
+  /* background-color: #d9d4e7; */
+  /*  background-color: #cb1477; ostre ruzova*/
+  background-color: #1976a5;
   animation-duration: 5s;
 }
 
@@ -47,17 +49,24 @@
 .button-os:hover {
   position: absolute;
   top: 30px;
-  background-color: #fec7d7;
+  /* background-color: #fec7d7; */
+  background-color: #f2d0ed;
 }
 
 .button-os a {
   font-size: 20px;
   display: block;
   text-decoration: none;
-  color: #0e172c;
+  color: #1976a5;
   transition: 1.5s;
+  font-family: 'PreissigPoster';
 }
 
 .button-os a:hover {
   letter-spacing: 5px;
+}
+#foot button {
+  font-family: 'PreissigPoster';
+  font-size: 1rem;
+  color: #1976a5;
 }

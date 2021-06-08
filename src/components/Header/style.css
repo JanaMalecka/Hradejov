@@ -12,7 +12,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  z-index: 1;
   position: relative;
   z-index: 2;
 }
@@ -26,12 +25,11 @@ nav {
 nav a {
   display: block;
   margin: 0.5rem;
-  padding: 0.5rem;
+  padding: 0.2rem;
   z-index: 2;
   letter-spacing: 1px;
   font-weight: 700;
   text-decoration: none;
-  /*  color: #15594d; */
   color: #1976a5;
   border-bottom: 3px solid transparent;
   border-radius: 20%;
@@ -47,7 +45,9 @@ nav a:hover {
 .nav-open {
   display: none;
 }
-
+.nav-link {
+  font-size: 1rem;
+}
 .hamburger {
   display: block;
   position: absolute;
@@ -108,11 +108,7 @@ nav a:hover {
     max-width: 75%;
   }
 }
-@media screen and (min-width: 780px) {
-  .nav-link {
-    font-size: 0.8rem;
-  }
-}
+
 @media screen and (min-width: 1110px) {
   .navigation {
     display: flex;
@@ -120,6 +116,7 @@ nav a:hover {
     max-width: 80%;
     align-items: center;
     min-height: 3rem;
+    font-size: 1rem;
   }
   nav {
     width: initial;

@@ -5,17 +5,11 @@
     url('fonts/PreissigPoster.eot') format('embedded-opentype'),
     url('fonts/PreissigPoster.woff') format('woff'),
     url('fonts/PreissigPoster.svg') format('svg');
-  
 }
-
 @font-face {
   font-family: 'Spoof-Medium';
-  src: local('Spoof-Medium'),
-    url('fonts/Spoof-Medium.woff') format('woff'),
-    /* url('fonts/PreissigPoster.eot') format('embedded-opentype'), */
-   
-    
-  
+  src: local('Spoof-Medium'), url('fonts/Spoof-Medium.woff') format('woff');
+  /* url('fonts/PreissigPoster.eot') format('embedded-opentype'), */
 }
 
 html {
@@ -34,8 +28,6 @@ html {
 }
 body {
   margin: 0;
-  background-color: white;
-  /* color: #15594d; */
+  background-color: #fff;
   color: #1976a5;
-  /*  color: #268f90; */
 }
