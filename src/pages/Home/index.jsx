@@ -21,6 +21,7 @@ const Home = () => {
         <Header />
         <Intro />
         <div className="wave wave--pink"></div>
+        <div className="divider div-transparent div-dot"></div>
       </section>
       <section
         id="explore"
@@ -28,6 +29,7 @@ const Home = () => {
       >
         <Explore />
         <div className="wave wave--white"></div>
+        <div className="divider div-transparent div-dot"></div>
         <ScrollButton />
       </section>
       <section
@@ -36,6 +38,7 @@ const Home = () => {
       >
         <Whyplay />
         <div className="wave wave--pink"></div>
+        <div className="divider div-transparent div-dot"></div>
       </section>
       <section
         id="buy"
@@ -43,6 +46,7 @@ const Home = () => {
       >
         <Buy />
         <div className="wave wave--white"></div>
+        <div className="divider div-transparent div-dot"></div>
       </section>
       <section
         id="faq"
@@ -50,8 +54,12 @@ const Home = () => {
       >
         <FAQ />
         <div className="wave wave--pink"></div>
+        <div className="divider div-transparent div-dot"></div>
       </section>
-      <section id="contact" className="section-container ">
+      <section
+        id="contact"
+        className="section-container container--separator--white"
+      >
         <Contact />
         <footer>
           <Footer />

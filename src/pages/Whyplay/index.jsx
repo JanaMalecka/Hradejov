@@ -5,10 +5,10 @@ import './style.css';
 const Whyplay = () => {
   return (
     <div className="container">
-      <h1 className="title">Proč hrát naše hry</h1>
+      <h1 className="title swing">Proč hrát naše hry</h1>
       <div className="container--columns">
         <div className="column-first">
-          <h3 className="subtitle--small">Zábava</h3>
+          <h3 className="subtitle--small swing heading--pink">Zábava</h3>
           <p>
             Jak zabavit své děti a vyplnit jejich volný čas řeší mnoho rodičů.
             My vám nabízíme zábavný způsob, který dětem přinese zážitky a
@@ -16,7 +16,7 @@ const Whyplay = () => {
           </p>
         </div>
         <div className="column-second">
-          <h3 className="subtitle--small">Poznání</h3>
+          <h3 className="subtitle--small swing heading--pink">Poznání</h3>
           <p>
             Jednotlivé knihy s herním plánem jsou zasazeny do pohádkového
             příběhu, který dětem zprostředkuje informace o městě Brně. Za pomoci
@@ -26,7 +26,7 @@ const Whyplay = () => {
           </p>
         </div>
         <div className="column-third">
-          <h3 className="subtitle--small">Pohyb</h3>
+          <h3 className="subtitle--small swing heading--pink">Pohyb</h3>
           <p className="last">
             Kdo by nechtěl, aby se jeho dítě více pohybovalo, než aby bylo
             baveno pasivně? Přidanou hodnotou našich her je pohyb ve městě,

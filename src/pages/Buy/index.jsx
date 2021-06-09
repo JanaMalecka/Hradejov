@@ -9,7 +9,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Buy = () => {
   return (
     <div className="container">
-      <h1 className="title">Koupit hru</h1>
+      <h1 className="title swing">Koupit hru</h1>
       <div className="container-book">
         <div className="book-wrapper">
           <img
@@ -18,7 +18,7 @@ const Buy = () => {
             alt="Obálka knihy s pohádkovou postavou Uthrčísla"
           />
 
-          <h2 className="subtitle">Utrhčíslo</h2>
+          <h2 className="subtitle swing heading--pink">Utrhčíslo</h2>
         </div>
       </div>
       <h3 className="subtitle--small extract">Ukázka z knihy</h3>
@@ -42,18 +42,18 @@ const Buy = () => {
         K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
         zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
       </p>
-      <p>Cena: 300 Kč</p>
+      <p className="paragraph--pink">Cena: 300 Kč</p>
       <div className="btn-wrapper btn-wrapper--basket">
         <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="E-shop" />
       </div>
-      <h2 className="subtitle margin--large">Připravujeme</h2>
+      <h2 className="subtitle margin--large swing">Připravujeme</h2>
 
       <img
         className="book"
         src={puzzolenteUrl}
         alt="obrázek pohádkové postavy Puzzolente"
       />
-      <h2 className="subtitle">Puzzolente</h2>
+      <h2 className="subtitle swing heading--pink">Puzzolente</h2>
       <div className="text-wrapper">
         <h3 className="subtitle--small extract">Ukázka z knihy</h3>
         <p className="paragraph extract-text">
@@ -79,7 +79,7 @@ const Buy = () => {
           se narodil Puzzolente...
         </p>
       </div>
-      <h2 className="subtitle">Omylem</h2>
+      <h2 className="subtitle swing heading--pink">Omylem</h2>
       <img
         className="book"
         src={omylemUrl}
@@ -108,7 +108,7 @@ const Buy = () => {
           nepříjemnosti...
         </p>
       </div>
-      <h2 className="subtitle last">Hra Utrhčíslo</h2>
+      <h2 className="subtitle last swing heading--pink">Hra Utrhčíslo</h2>
       <Link to="/game">
         <Button text="Ukázka hry" />
       </Link>

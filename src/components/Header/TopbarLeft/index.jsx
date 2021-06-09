@@ -8,7 +8,7 @@ const TopbarLeft = () => {
     <div className="topbar-left">
       <a href="#home">
         <img
-          className="site-logo"
+          className="site-logo swing"
           src={logoUrl}
           alt="otevřená kniha s názvem Hradějov jako logo stránek"
         />
