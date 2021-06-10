@@ -25,7 +25,7 @@ return (
 }  disabled={isAnswerOk} /> 
 
 
-{!isEmpty && ( isAnswerOk ? <p className="jojo">Jupí spravna odpověď < br/> Pokračuj na další úkol</p>:<p className="nene">nenene zkus znovu</p>)}
+{!isEmpty && ( isAnswerOk ? <p className="jojo">Jupí správná odpověď < br/> Pokračuj na další úkol</p>:<p className="nene">nenene zkus znovu</p>)}
 
 </div>
 </>
