@@ -19,7 +19,7 @@
 nav {
   width: 100%;
   padding: 0rem;
-  background-color: #f2d0ed;
+  background-color: #fff;
 }
 
 nav a {
@@ -31,16 +31,13 @@ nav a {
   font-weight: 700;
   text-decoration: none;
   color: #1976a5;
-  border-bottom: 3px solid transparent;
-  border-radius: 20%;
-  /* border-bottom: 2px solid transparent; */
+
+  border-bottom: 2px solid transparent;
 }
 /*...border-bottom must be at "nav a" and "nav a:hover" otherwise it jumps about*/
 
 nav a:hover {
-  border-bottom: 3px solid #cb1477;
-  border-radius: 10%;
-  /*   border-bottom: 2px solid #1976a5; */
+  border-bottom: 2px solid #cb1477;
 }
 .nav-open {
   display: none;
@@ -137,4 +134,5 @@ nav a:hover {
   .hamburger {
     display: none;
   }
+  /*...tady zkousim...*/
 }

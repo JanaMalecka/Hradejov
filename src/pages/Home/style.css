@@ -1,6 +1,6 @@
 /*...page separators...*/
 
-.container--separator--pink {
+/* .container--separator--pink {
   position: relative;
   background: #f2d0ed;
 }
@@ -55,10 +55,43 @@
 }
 .wave--white::after {
   background-color: #fff;
+} */
+/*.......divider...*/
+
+.divider {
+  position: relative;
+  margin-top: 9rem;
+  height: 1px;
 }
-
-/*..................*/
-
+.div-transparent:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    #1976a5,
+    transparent
+  );
+}
+.div-dot:after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: #1976a5;
+  border: 1px solid #1976a5;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+/*....*/
 .container,
 header,
 footer {
@@ -72,7 +105,7 @@ footer {
 .section-container {
   margin-top: -1rem;
   padding-top: 3rem;
-  padding-bottom: 8rem;
+  padding-bottom: 1rem;
   margin-bottom: 1rem;
 }
 .title,
@@ -117,6 +150,9 @@ footer {
 .last {
   padding-bottom: 3rem;
 }
+.heading--pink {
+  color: #cb1477;
+}
 @media screen and (min-width: 780px) {
   .title {
     padding-bottom: 2rem;
@@ -129,6 +165,66 @@ footer {
   footer {
     max-width: 75%;
   }
+  /*......swing elements............*/
+  @-webkit-keyframes swing {
+    15% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+    30% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    50% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    65% {
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+    80% {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  @keyframes swing {
+    15% {
+      -webkit-transform: translateX(5px);
+      transform: translateX(5px);
+    }
+    30% {
+      -webkit-transform: translateX(-5px);
+      transform: translateX(-5px);
+    }
+    50% {
+      -webkit-transform: translateX(3px);
+      transform: translateX(3px);
+    }
+    65% {
+      -webkit-transform: translateX(-3px);
+      transform: translateX(-3px);
+    }
+    80% {
+      -webkit-transform: translateX(2px);
+      transform: translateX(2px);
+    }
+    100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+  }
+  .swing:hover {
+    -webkit-animation: swing 1s ease;
+    animation: swing 1s ease;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+  }
+  /*....*/
 }
 @media screen and (min-width: 1110px) {
   .topbar,

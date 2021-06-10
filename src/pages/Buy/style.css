@@ -38,6 +38,10 @@
 .homepage .extract-text {
   text-align: justify;
 }
+.paragraph--pink {
+  color: #cb1477;
+  font-size: 1.2rem;
+}
 @media screen and (min-width: 780px) {
   .book {
     /* float: left; */

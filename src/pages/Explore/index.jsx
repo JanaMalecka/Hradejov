@@ -9,7 +9,7 @@ import Button from '../../components/Button';
 const Explore = () => {
   return (
     <div className="container">
-      <h1 className="title">Poznejte své město</h1>
+      <h1 className="title swing">Poznejte své město</h1>
       <p>
         V Brně se toho hodně děje. Staví se nové domy, opravují se ty staré,
         rodiče pospíchají do práce a děti do školky či školy. Ale žijí tu i jiné
@@ -36,7 +36,7 @@ const Explore = () => {
         <div className="column-first">
           <p>Prozkoumej zajímavá místa</p>
           <img
-            className="icon-building"
+            className="icon-building swing"
             src={buildingBlueUrl}
             alt="ikonka budov"
           />
@@ -44,7 +44,7 @@ const Explore = () => {
         <div className="column-second">
           <p>Hraj za pomoci knihy</p>
           <img
-            className="icon-book icon-book--bigger"
+            className="icon-book icon-book--bigger swing"
             src={book2Url}
             alt="ikonka knihy"
           />
@@ -52,7 +52,7 @@ const Explore = () => {
         <div className="column-third">
           <p>Vyřeš úkoly, budeš odměněn</p>
           <img
-            className="icon-gift last"
+            className="icon-gift last swing"
             src={giftPinkUrl}
             alt="ikonka dárku"
           />

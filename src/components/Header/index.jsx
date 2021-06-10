@@ -25,22 +25,22 @@ const Header = () => {
             <span></span>
           </button>
           <nav className={menuOpen ? 'nav-closed' : 'nav-open'}>
-            <a href="#home" onClick={handleClose} className="nav-link">
+            <a href="#home" onClick={handleClose} className="nav-link swing">
               Domů
             </a>
-            <a href="#explore" onClick={handleClose} className="nav-link">
+            <a href="#explore" onClick={handleClose} className="nav-link swing">
               Poznejte své město
             </a>
-            <a href="#whyplay" onClick={handleClose} className="nav-link">
+            <a href="#whyplay" onClick={handleClose} className="nav-link swing">
               Proč hrát naše hry
             </a>
-            <a href="#buy" onClick={handleClose} className="nav-link">
+            <a href="#buy" onClick={handleClose} className="nav-link swing">
               Koupit hru
             </a>
-            <a href="#faq" onClick={handleClose} className="nav-link">
+            <a href="#faq" onClick={handleClose} className="nav-link swing">
               FAQ
             </a>
-            <a href="#contact" onClick={handleClose} className="nav-link">
+            <a href="#contact" onClick={handleClose} className="nav-link swing">
               Kontakt
             </a>
           </nav>

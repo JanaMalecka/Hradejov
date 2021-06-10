@@ -4,7 +4,7 @@ import './style.css';
 const FAQ = () => {
   return (
     <div className="container">
-      <h1 className="title">FAQ</h1>
+      <h1 className="title swing">FAQ</h1>
       <h3 className="heading--small">Co je to Hradějov?</h3>
       <p>
         Hry pro rodiče s dětmi ve věku 4-10 let, které si můžete zahrát přímo v
@@ -31,7 +31,8 @@ const FAQ = () => {
       <p>
         Pro každý výtisk herního plánu je připravena jedna výhra. Pro její
         získání zašlete výsledné číslo ze hry spolu s číslem herního plánu z
-        tiráže a vaši korespondenční adresu na info@hradejov.cz. Výhru vám
+        tiráže a vaši korespondenční adresu na{' '}
+        <a href="mailto:info@hradejov.cz">info@hradejov.cz</a>. Výhru vám
         zašleme poštou. V případě zájmu o více výher nás kontaktujte na témže
         emailu.
       </p>

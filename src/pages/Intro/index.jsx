@@ -7,7 +7,7 @@ const Intro = () => {
   return (
     <div className="container">
       <div className="intro">
-        <h1 className="title title-intro">Hradějov</h1>
+        <h1 className="title title-intro swing">Hradějov</h1>
         <img
           className="img-hradejov"
           src={hradejovUrl}

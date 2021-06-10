@@ -1,7 +1,8 @@
 .button-main {
   border: none;
   border-radius: 15px;
-  box-shadow: 0 0 8px rgb(207, 207, 207);
+  /*  box-shadow: 0 0 8px rgb(207, 207, 207); */
+  box-shadow: 0 0 8px #1976a5;
 }
 
 .button-main:hover {
@@ -50,7 +51,8 @@
   position: absolute;
   top: 30px;
   /* background-color: #fec7d7; */
-  background-color: #f2d0ed;
+  /*   background-color: #f2d0ed; */
+  background-color: #f9f8fc;
 }
 
 .button-os a {

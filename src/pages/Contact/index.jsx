@@ -5,14 +5,18 @@ import faceUrl from './img/face.png';
 const Contact = () => {
   return (
     <div className="container">
-      <h1 className="title">Kontakt</h1>
+      <h1 className="title swing">Kontakt</h1>
       <div className="contact-wrapper">
         <div className="icons">
           <a
             href="https://www.facebook.com/hradejov.cz/"
             /* target="_blank" */
           >
-            <img className="icon-fb" src={faceUrl} alt="ikonka Facebooku" />
+            <img
+              className="icon-fb swing"
+              src={faceUrl}
+              alt="ikonka Facebooku"
+            />
           </a>
         </div>
 
