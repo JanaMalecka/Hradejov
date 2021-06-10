@@ -4,6 +4,7 @@ import mapa from './mapacbMo.png'
 /* import relief from './relief0.jpg' */
 import Hint from '../Hint';
 import Odpoved from '../Odpoved';
+/* import Geo from '../Geo' */
 /* import Button from '../Button'; */
 /* import ruzova from  '../img/ruzova.svg' */
 
@@ -56,6 +57,7 @@ const Hra = () => {
              <section> 
              <h2>Vaše odpověď</h2> 
               <Odpoved />
+             {/*  <Geo /> */}
               </section>     
        
         </>

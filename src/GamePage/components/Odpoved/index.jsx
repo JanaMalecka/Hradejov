@@ -5,14 +5,16 @@ const Odpoved =() => {
 const [isAnswerOk, setisAnswerOk]=useState(false)
 const [isEmpty, setisEmpty]=useState (true)
 
-console.log(isAnswerOk && !isEmpty)
+/* console.log(isAnswerOk && !isEmpty) */
 return (
     <>
-<div className="odpoved">
+<div className={ isAnswerOk?"btnok":"odpoved" }>
 
     <input id="input" onChange={(event)=>{
         const cislo = parseInt( event.target.value);
         if (isEmpty){setisEmpty(false)};
+     
+    
         if (cislo===3) 
         {
             setisAnswerOk(true);
@@ -23,7 +25,8 @@ return (
 }  disabled={isAnswerOk} /> 
 
 
-{!isEmpty && ( isAnswerOk ? <p>ano </p>:<p>nenene zkus znovu</p>)}
+{!isEmpty && ( isAnswerOk ? <p className="jojo">Jupí spravna odpověď < br/> Pokračuj na další úkol</p>:<p className="nene">nenene zkus znovu</p>)}
+
 </div>
 </>
 )
