@@ -25,7 +25,11 @@ const Header = () => {
             <span></span>
           </button>
           <nav className={menuOpen ? 'nav-closed' : 'nav-open'}>
-            <a href="#home" onClick={handleClose} className="nav-link swing">
+            <a
+              href="#home"
+              onClick={handleClose}
+              className="nav-link swing nav-a--clear"
+            >
               Domů
             </a>
             <a href="#explore" onClick={handleClose} className="nav-link swing">

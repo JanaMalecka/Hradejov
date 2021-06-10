@@ -110,7 +110,7 @@ nav a:hover {
   .navigation {
     display: flex;
     flex-direction: row;
-    max-width: 80%;
+    max-width: 70%;
     align-items: center;
     min-height: 3rem;
     font-size: 1rem;
@@ -125,6 +125,9 @@ nav a:hover {
     margin-bottom: 0rem;
     font-size: 1rem;
   }
+  .nav-a--clear {
+    display: none;
+  }
   .nav-open {
     display: flex;
     padding-top: 0rem;
@@ -134,5 +137,4 @@ nav a:hover {
   .hamburger {
     display: none;
   }
-  /*...tady zkousim...*/
 }

@@ -18,11 +18,11 @@
   z-index: 1;
 }
 
-.first {
-  margin-top: 2rem;
+.paragraph-first {
+  padding-top: 2rem;
   font-size: 1rem;
 }
-.second {
+.paragraph-second {
   font-size: 1.5rem;
   color: #cb1477;
 }

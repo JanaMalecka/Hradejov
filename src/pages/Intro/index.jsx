@@ -13,8 +13,8 @@ const Intro = () => {
           src={hradejovUrl}
           alt="obrázek s hlavními postavičkami Hradějova"
         />
-        <p className="first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
-        <p className="second">
+        <p className="paragraph-first">POHÁDKOVÝ SVĚT MEZI NÁMI</p>
+        <p className="paragraph-second">
           Kupte si herní plán v podobě knihy a vyražte si hrát do města!
         </p>
         <p className="last">

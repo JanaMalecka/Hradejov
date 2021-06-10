@@ -41,6 +41,7 @@
 .paragraph--pink {
   color: #cb1477;
   font-size: 1.2rem;
+  padding-top: 1rem;
 }
 @media screen and (min-width: 780px) {
   .book {
