@@ -1,61 +1,3 @@
-/*...page separators...*/
-
-/* .container--separator--pink {
-  position: relative;
-  background: #f2d0ed;
-}
-.wave {
-  position: absolute;
-  height: 103px;
-  width: 100%;
-  bottom: 0;
-}
-.wave--pink {
-  background: #f2d0ed;
-}
-
-.wave::before,
-.wave::after {
-  content: '';
-  display: block;
-  position: absolute;
-  border-radius: 100% 50%;
-  z-index: 100;
-}
-
-.wave::before {
-  width: 55%;
-  height: 109%;
-  right: -1.5%;
-  top: 60%;
-}
-.wave--pink::before {
-  background-color: #fff;
-}
-.wave::after {
-  width: 55%;
-  height: 100%;
-  left: -1.5%;
-  top: 40%;
-}
-.wave--pink::after {
-  background-color: #f2d0ed;
-}
-
-.container--separator--white {
-  position: relative;
-  background: #fff;
-}
-.wave--white {
-  background: #fff;
-}
-
-.wave--white::before {
-  background-color: #f2d0ed;
-}
-.wave--white::after {
-  background-color: #fff;
-} */
 /*.......divider...*/
 
 .divider {
@@ -152,6 +94,11 @@ footer {
 }
 .heading--pink {
   color: #cb1477;
+}
+a:focus,
+.button-main:focus {
+  color: #cb1477;
+  outline: 2px dotted #1976a5;
 }
 @media screen and (min-width: 780px) {
   .title {

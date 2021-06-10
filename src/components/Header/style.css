@@ -64,8 +64,6 @@ nav a:hover {
 .hamburger span {
   position: absolute;
   top: calc(50% / 2);
-  /*top: 15px;
-  /* otazka na kouce:  jak spany obratit, aby byly zarovnany z prave strany*/
   left: 0;
   right: 0;
   height: 5px;
@@ -131,7 +129,6 @@ nav a:hover {
   .nav-open {
     display: flex;
     padding-top: 0rem;
-    /*    */
     align-content: baseline;
   }
   .hamburger {

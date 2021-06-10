@@ -14,52 +14,29 @@ import Footer from '../../components/Footer';
 const Home = () => {
   return (
     <div className="homepage">
-      <section
-        id="home"
-        className="section-container container--separator--pink"
-      >
+      <section id="home" className="section-container">
         <Header />
         <Intro />
-        <div className="wave wave--pink"></div>
         <div className="divider div-transparent div-dot"></div>
       </section>
-      <section
-        id="explore"
-        className="section-container container--separator--white"
-      >
+      <section id="explore" className="section-container">
         <Explore />
-        <div className="wave wave--white"></div>
         <div className="divider div-transparent div-dot"></div>
         <ScrollButton />
       </section>
-      <section
-        id="whyplay"
-        className="section-container container--separator--pink"
-      >
+      <section id="whyplay" className="section-container">
         <Whyplay />
-        <div className="wave wave--pink"></div>
         <div className="divider div-transparent div-dot"></div>
       </section>
-      <section
-        id="buy"
-        className="section-container container--separator--white"
-      >
+      <section id="buy" className="section-container">
         <Buy />
-        <div className="wave wave--white"></div>
         <div className="divider div-transparent div-dot"></div>
       </section>
-      <section
-        id="faq"
-        className="section-container container--separator--pink"
-      >
+      <section id="faq" className="section-container">
         <FAQ />
-        <div className="wave wave--pink"></div>
         <div className="divider div-transparent div-dot"></div>
       </section>
-      <section
-        id="contact"
-        className="section-container container--separator--white"
-      >
+      <section id="contact" className="section-container">
         <Contact />
         <footer>
           <Footer />
