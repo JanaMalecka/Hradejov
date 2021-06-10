@@ -15,3 +15,13 @@
   width: 1.5rem;
   opacity: 1;
 }
+@media screen and (min-width: 1250px) {
+  .homepage .arrow {
+    right: 15em;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .homepage .arrow {
+    right: 18em;
+  }
+}

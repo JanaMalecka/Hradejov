@@ -11,7 +11,7 @@
   -khtml-box-shadow: 10px 10px 5px rgb(66, 65, 65);
 }
 .title-intro {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
   margin-bottom: 0rem;
   text-align: center;
@@ -36,7 +36,11 @@
   margin: auto;
   border-radius: 50%;
 }
-
+@media screen and (min-width: 400px) {
+  .title-intro {
+    font-size: 4rem;
+  }
+}
 @media screen and (min-width: 780px) {
   .img-hradejov {
     max-width: 100%;
