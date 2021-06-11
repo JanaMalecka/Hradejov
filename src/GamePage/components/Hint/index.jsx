@@ -19,11 +19,9 @@ const Hint = () => {
 
     
 {/*  
-      {isOn? "Napoveda" : "nic"}
-    </button>
-    <img  
+    
  { <img src={"relief"+(isOn ? "0" : "1") +".jpg"}
-   className={ isOn ? "btn--on" : "btn"}></img> }  */} 
+  */} 
 
 
 export default Hint;

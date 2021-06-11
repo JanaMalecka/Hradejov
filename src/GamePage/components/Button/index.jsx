@@ -1,5 +1,5 @@
-/* import React, { useState } from 'react';
-import './style.css';
+
+/* import './style.css';
 
 const Button = () => {
 const [isOpen, setIsOpen] = useState(false);
@@ -8,11 +8,10 @@ const handleClick =() => {
 }; 
 
 return(
- 
 <button onClick={() =>
              isOpen === true ? setIsOpen(false) : setIsOpen(true)
             }
             className={isOpen?"Open":"Close"}
             ></button>)
 }
-export default Button; */
+export default Button;  */
