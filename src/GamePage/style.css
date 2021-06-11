@@ -19,9 +19,10 @@
  text-decoration: none;
  margin-top: 30px;
  margin-left: 0px;
- margin-bottom: 20px;
+
  position: fixed;
  color:#FF6FDD;
+ z-index: 2;
 }
 
 .game a:hover{
@@ -33,12 +34,14 @@
   margin-left: auto;
 }
 
-.game header {
-/*   display: flex; */
-  flex-direction: column;
-  align-items: center;
-  margin-top: 1rem;
-  margin-left:0;
+.header {
+  display: block; 
+ 
+ 
+/*   margin-top: 1rem;
+  margin-left:0; */
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .kurt {

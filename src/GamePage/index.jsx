@@ -8,9 +8,9 @@ import { Link } from 'react-router-dom';
 const GamePage = () => (
   <div className="game">
     <Link to="/" className="link">Hradějov</Link>
-
+   
     <div className="container">
-      <header>
+     <header>
         <img src={obrazek1} className="kurt" />
         {/*    <img src={obrazek} /> */}
         <h1>UKÁZKOVÁ HRA UTRHČÍSLO</h1>
