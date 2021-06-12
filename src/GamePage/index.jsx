@@ -7,13 +7,13 @@ import { Link } from 'react-router-dom';
 
 const GamePage = () => (
   <div className="game">
-    <Link to="/" className="link">Hradějov</Link>
    
     <div className="container">
-     <header>
+    <Link to="/" className="link">Hradějov</Link>
+    <header>
         <img src={obrazek1} className="kurt" />
         {/*    <img src={obrazek} /> */}
-        <h1>UKÁZKOVÁ HRA UTRHČÍSLO</h1>
+        <h1 className="h1godel">UKÁZKOVÁ HRA UTRHČÍSLO</h1>
       </header>
       <main>
         <img src={ruzova2} className="bounce-in-top" />
@@ -23,7 +23,7 @@ const GamePage = () => (
       <a href="">Nahoru</a> 
       </div>
       </main>
-      <footer></footer>
+      <footer id="gameFooter"></footer>
     </div>
   </div>
 );

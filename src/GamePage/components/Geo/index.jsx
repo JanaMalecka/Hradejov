@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import { render } from "react-dom";
+/* import React, { Component } from "react";
 
 class Geo extends Component {
   constructor(props) {
@@ -15,13 +14,13 @@ class Geo extends Component {
     });
   }
 
-  
     return (
+        <>
       <div>
         <h4>Using geolocation JavaScript API in React</h4>
       </div>
+      </>
     )
-  
 }
-export default Geo;
+export default Geo; */
 /* render(<App />, document.getElementById("root")); */

@@ -1,39 +1,32 @@
-
-.section 
-{
-    margin-top: 10px;
-    margin-bottom: 50px;
-    
+.section {
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 
 main {
-color: #1976a5;
-margin-top:20px;
-margin-bottom: 40px;
+  color: #1976a5;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
-.input{
-     border-color: blue;
-     border-radius: 100%;
-     
- }
- 
-
+.input {
+  border-color: blue;
+  border-radius: 100%;
+}
 
 h2 {
-    font-family: Spoof,Helvetica,Arial,serif;
-    font-feature-settings: "zero","ss02","ss05";
-    font-weight: 700;
-    position: relative;
+  font-family: Spoof, Helvetica, Arial, serif;
+  font-feature-settings: "zero", "ss02", "ss05";
+  font-weight: 700;
+  position: relative;
 }
 /* .napoveda {
     transform: rotate(180deg);
 } */
 .pNapoveda {
-    transform: rotate(180deg);
- font-style: italic;
+  transform: rotate(180deg);
+  font-style: italic;
 }
 .mapa,
-.relief
-{
-width: 100%;
+.relief {
+  width: 100%;
 }

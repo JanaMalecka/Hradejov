@@ -28,6 +28,7 @@ return (
 {!isEmpty && ( isAnswerOk ? <p className="jojo">Jupí správná odpověď < br/> Pokračuj na další úkol</p>:<p className="nene">nenene zkus znovu</p>)}
 
 </div>
+<div className="zk"/>
 </>
 )
 }
