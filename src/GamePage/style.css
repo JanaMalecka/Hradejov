@@ -8,7 +8,7 @@
 
 .game {
   margin-top: 20px;
-  margin-left: 15px;
+  margin-left: 10px;
   margin-right: 15px;
   margin-bottom: 10px;
   font-family: "Spoof";
@@ -29,7 +29,7 @@ h1 {
 .game a {
   text-decoration: none;
   margin-top: 30px;
-  margin-left: 0px;
+  margin-left: -60px;
 
   position: fixed;
   color: #ff6fdd;
@@ -61,6 +61,19 @@ h1 {
 
 .mistoSodpovedi {
   margin-bottom: 20px;
+}
+@media screen and (max-width: 550px) {
+  .link {
+
+    transform: rotate(0deg);
+  } 
+  
+.game a {
+  transform: rotate(0deg);
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 10px;
+}
 }
 
 #gameFooter {
