@@ -43,8 +43,15 @@ const Buy = () => {
         zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
       </p>
       <p className="paragraph--pink">Cena: 300 Kč</p>
+      <p className="heading--pink">
+        Hru budete moci zakoupit v průběhu července.
+      </p>
       <div className="btn-wrapper btn-wrapper--basket">
-        <Button link="https://form.simpleshop.cz/8Oy6/buy/" text="E-shop" />
+        <Button
+          disabled={true}
+          /* link="https://form.simpleshop.cz/8Oy6/buy/" */
+          text="E-shop"
+        />
       </div>
       <h2 className="subtitle margin--large swing">Připravujeme</h2>
 
