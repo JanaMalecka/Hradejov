@@ -3,7 +3,7 @@ import './style.css';
 
 const Footer = () => {
   return (
-    <p>
+    <p className="paragraph--last">
       2021, © Hradějov: Novotná&Doušek. Všechna práva vyhrazena. Všechny
       ilustrace a texty her zveřejněné na těchto stránkách jsou dílem autorským
       ve smyslu ust. § 2 zákona č. 121/2000 Sb. Bez předchozího písemného

@@ -1,0 +1,8 @@
+.paragraph--last {
+  padding-top: 4rem;
+}
+@media screen and (min-width: 780px) {
+  .paragraph--last {
+    padding-top: 6rem;
+  }
+}

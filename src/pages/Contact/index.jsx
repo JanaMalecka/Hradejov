@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import faceUrl from './img/face.png';
+import Form from '../../components/Form';
 
 const Contact = () => {
   return (
@@ -19,11 +20,11 @@ const Contact = () => {
             />
           </a>
         </div>
-
         <p>
           Email: <a href="mailto:info@hradejov.cz">info@hradejov.cz</a>
         </p>
       </div>
+      <Form />
     </div>
   );
 };

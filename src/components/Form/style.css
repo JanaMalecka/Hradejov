@@ -1,0 +1,37 @@
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0 auto;
+}
+
+.contact__form--label {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 0;
+  margin: 0 auto;
+}
+
+.contact__form--input {
+  appearance: none;
+  border: 2px solid #1976a5;
+  /* border-radius: 15px; */
+  font-family: 'PreissigPoster';
+  color: #1976a5;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  min-width: 250px;
+}
+
+@media screen and (min-width: 450px) {
+  .contact__form--input {
+    width: 400px;
+  }
+}
+
+@media screen and (min-width: 980px) {
+  .contact__form--input {
+    width: 600px;
+  }
+}
