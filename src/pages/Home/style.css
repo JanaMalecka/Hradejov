@@ -98,8 +98,8 @@ footer {
 a:focus,
 .button-main:focus {
   color: #cb1477;
-  outline: 2px dotted #1976a5;
-  border-radius: 15px;
+  outline: none;
+  box-shadow: 0px 0px 2px #1976a5;
 }
 @media screen and (min-width: 780px) {
   .title {
