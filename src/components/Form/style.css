@@ -17,11 +17,16 @@
   appearance: none;
   border: 2px solid #1976a5;
   /* border-radius: 15px; */
-  font-family: 'PreissigPoster';
+  /*  font-family: 'PreissigPoster'; */
   color: #1976a5;
   padding: 0.5rem;
   margin-top: 0.5rem;
   min-width: 250px;
+}
+.required {
+  font-size: 0.5rem;
+  color: #cb1477;
+  padding-left: 0.5rem;
 }
 
 @media screen and (min-width: 450px) {

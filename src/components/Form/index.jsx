@@ -39,39 +39,45 @@ const Form = () => {
         </h3>
         <form onSubmit={onSubmit} className="contact__form">
           <label className="contact__form--label">
-            Vaše jméno
+            <div className="label--row">
+              Vaše jméno<span className="required">* povinné pole</span>
+            </div>
             <input
               type="text"
               name="user_name"
               className="contact__form--input"
-              placeholder="Napište jméno a příjmení..."
+              placeholder="Zadejte jméno a příjmení"
               value={toSend.user_name}
               onChange={handleChange}
             />
           </label>
 
           <label className="contact__form--label">
-            Váš email
+            <div className="label--row">
+              Váš email<span className="required">* povinné pole</span>
+            </div>
             <input
               type="email"
               name="user_email"
               className="contact__form--input"
               required
-              placeholder="Napište Vaši emailovou adresu..."
+              placeholder="ja@mujemail.cz"
               value={toSend.user_email}
               onChange={handleChange}
             />
           </label>
 
           <label className="contact__form--label">
-            Vaše zpráva
+            <div className="label--row">
+              Vaše zpráva<span className="required">* povinné pole</span>
+            </div>
             <textarea
               name="message"
               rows="5"
               cols="30"
               className="contact__form--input"
               required
-              placeholder="Napište Vaši zprávu..."
+              placeholder="Prostor pro Vaši zprávu"
               value={toSend.message}
               onChange={handleChange}
             />
@@ -84,7 +90,6 @@ const Form = () => {
 
           <div id="foot">
             <button
-              /* {user_name = ''|| user_email = '' || message = '' ? disabled : null} */
               disabled={
                 !toSend.user_name || !toSend.user_email || !toSend.message
               }
