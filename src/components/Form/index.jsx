@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Button from '../Button';
+
 import './style.css';
 import { send } from 'emailjs-com';
 
@@ -82,12 +82,6 @@ const Form = () => {
               onChange={handleChange}
             />
           </label>
-          {/*    <Button
-            type="submit"
-            text="Odeslat zprávu"
-            onClick={() => setText('Zpráva odeslána')}
-          />  */}
-
           <div id="foot">
             <button
               disabled={
