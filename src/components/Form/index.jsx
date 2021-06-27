@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './style.css';
 import { send } from 'emailjs-com';
+import validator from 'validator';
 
 const Form = () => {
   const [toSend, setToSend] = useState({
@@ -9,7 +10,12 @@ const Form = () => {
     user_email: '',
     message: '',
   });
+
   const [buttonText, setButtonText] = useState('Odeslat zprávu');
+
+  const handleChange = (e) => {
+    setToSend({ ...toSend, [e.target.name]: e.target.value });
+  };
 
   const onSubmit = (event) => {
     event.preventDefault();
@@ -21,14 +27,11 @@ const Form = () => {
     )
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
+        setToSend({ user_name: '', user_email: '', message: '' });
       })
       .catch((err) => {
         console.log('FAILED...', err);
       });
-  };
-
-  const handleChange = (e) => {
-    setToSend({ ...toSend, [e.target.name]: e.target.value });
   };
 
   return (
@@ -40,7 +43,7 @@ const Form = () => {
         <form onSubmit={onSubmit} className="contact__form">
           <label className="contact__form--label">
             <div className="label--row">
-              Vaše jméno<span className="required">* povinné pole</span>
+              Vaše jméno{/* <span className="required">* povinné pole</span> */}
             </div>
             <input
               type="text"
@@ -53,15 +56,24 @@ const Form = () => {
           </label>
 
           <label className="contact__form--label">
-            <div className="label--row">
-              Váš email<span className="required">* povinné pole</span>
-            </div>
+            {validator.isEmail(toSend.user_email) ? (
+              <div className="label--row">
+                Váš email<span className="star">*</span>
+                <span className="required">povinné pole</span>
+              </div>
+            ) : (
+              <div className="label--row">
+                Váš email<span className="star">*</span>
+                <span className="required--red">Zadejte platný email</span>
+              </div>
+            )}
+
             <input
               type="email"
               name="user_email"
               className="contact__form--input"
               required
-              placeholder="ja@mujemail.cz"
+              /*   placeholder="ja@mujemail.cz" */
               value={toSend.user_email}
               onChange={handleChange}
             />
@@ -69,7 +81,8 @@ const Form = () => {
 
           <label className="contact__form--label">
             <div className="label--row">
-              Vaše zpráva<span className="required">* povinné pole</span>
+              Vaše zpráva<span className="star">*</span>
+              <span className="required"> povinné pole</span>
             </div>
             <textarea
               name="message"
@@ -77,21 +90,26 @@ const Form = () => {
               cols="30"
               className="contact__form--input"
               required
-              placeholder="Prostor pro Vaši zprávu"
+              /*  placeholder="Prostor pro Vaši zprávu" */
               value={toSend.message}
               onChange={handleChange}
             />
           </label>
           <div id="foot">
-            <button
-              disabled={
-                !toSend.user_name || !toSend.user_email || !toSend.message
-              }
-              className="button-main button-os"
-              onClick={() => setButtonText('Zpráva odeslána')}
-            >
-              {buttonText}
-            </button>
+            {!toSend.user_email ||
+            !toSend.message ||
+            !validator.isEmail(toSend.user_email) ? (
+              <button disabled className="button-main button-os">
+                {buttonText}
+              </button>
+            ) : (
+              <button
+                className="button-main button-os"
+                onClick={() => setButtonText('Zpráva odeslána')}
+              >
+                {buttonText}
+              </button>
+            )}
           </div>
         </form>
       </div>
