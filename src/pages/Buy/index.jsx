@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './style.css';
-import coverUrl from './img/cover.jpg';
+import coverBookUrl from './img/coverBook.jpg';
 import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 import Button from '../../components/Button';
@@ -14,7 +14,7 @@ const Buy = () => {
         <div className="book-wrapper">
           <img
             className="book"
-            src={coverUrl}
+            src={coverBookUrl}
             alt="Obálka knihy s pohádkovou postavou Uthrčísla"
           />
 
