@@ -42,7 +42,7 @@ const Buy = () => {
         K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
         zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
       </p>
-      <p className="paragraph--pink">Cena: 300 Kč</p>
+      <p className="paragraph--pink">Cena: 400 Kč</p>
       <p className="heading--pink">Hru budete moci zakoupit v průběhu října.</p>
       <div className="btn-wrapper btn-wrapper--basket">
         <Button
