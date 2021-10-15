@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './style.css';
-import coverBookUrl from './img/coverBook.jpg';
+import coverBookUrl from './img/coverBook.png';
 import puzzolenteUrl from './img/puzzolente.jpg';
 import omylemUrl from './img/omylem.jpg';
 import Button from '../../components/Button';
