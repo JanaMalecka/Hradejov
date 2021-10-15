@@ -43,11 +43,22 @@ const Buy = () => {
         zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
       </p>
       <p className="paragraph--pink">Cena: 400 Kč</p>
-      <p className="heading--pink">Hru budete moci zakoupit v průběhu října.</p>
+      <p className="heading--pink">
+        Hru Utrhčíslo můžete zakoupit prostřednictvím našeho E-shopu a ve
+        vybraných Informačních centrech:{' '}
+        <a href="https://www.gotobrno.cz/informacni-centra/informacni-centrum-pod-krokodylem/">
+          IC pod Krokodýlem,
+        </a>
+        <div>
+          <a href="https://www.gotobrno.cz/informacni-centra/informacni-centrum-to-je-brno/">
+            IC TO JE Brno
+          </a>
+        </div>
+      </p>
       <div className="btn-wrapper btn-wrapper--basket">
         <Button
-          disabled={true}
-          /* link="https://form.simpleshop.cz/8Oy6/buy/" */
+          /*  disabled={true} */
+          link="https://form.simpleshop.cz/8Oy6/buy/"
           text="E-shop"
         />
       </div>
