@@ -43,7 +43,8 @@ const Form = () => {
         <form onSubmit={onSubmit} className="contact__form">
           <label className="contact__form--label">
             <div className="label--row">
-              Vaše jméno{/* <span className="required">* povinné pole</span> */}
+              Vaše jméno
+              {/* <span className="required">* povinné pole</span> */}
             </div>
             <input
               type="text"
@@ -73,7 +74,6 @@ const Form = () => {
               name="user_email"
               className="contact__form--input"
               required
-              /*   placeholder="ja@mujemail.cz" */
               value={toSend.user_email}
               onChange={handleChange}
             />
@@ -90,7 +90,6 @@ const Form = () => {
               cols="30"
               className="contact__form--input"
               required
-              /*  placeholder="Prostor pro Vaši zprávu" */
               value={toSend.message}
               onChange={handleChange}
             />
