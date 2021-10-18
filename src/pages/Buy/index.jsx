@@ -39,8 +39,8 @@ const Buy = () => {
         <p />
       </div>
       <p>
-        K samotné hře je nezbytný pouze herní plán, papír a tužka, případně
-        zařízení umožňující zapisovat průběžná řešení úkolů v podobě čísel.
+        K samotné hře je nezbytný pouze herní plán a tužka k zapisování odpovědí
+        v podobě čísel.
       </p>
       <p className="paragraph--pink">Cena: 400 Kč</p>
       {/* <p className="heading--pink">
