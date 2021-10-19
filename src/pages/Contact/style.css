@@ -10,6 +10,15 @@ a:link {
 .icon-fb {
   filter: invert(10%);
 }
+.contact-first {
+  text-align: center;
+}
+.contact-first--small {
+  font-size: 0.8em;
+}
+.first-letter {
+  color: #cb1477;
+}
 @media screen and (min-width: 780px) {
   .contact-wrapper {
     display: flex;

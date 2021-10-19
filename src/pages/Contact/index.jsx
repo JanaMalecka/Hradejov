@@ -7,6 +7,18 @@ const Contact = () => {
   return (
     <div className="container">
       <h1 className="title swing">Kontakt</h1>
+      <div className="contact-first">
+        <span className="first-letter">M</span>arie{' '}
+        <span className="first-letter">N</span>ovotná
+      </div>
+      <div className="contact-first contact-first--small">
+        (produktová manažerka)
+      </div>
+      <div className="contact-first">
+        <span className="first-letter">R</span>oman{' '}
+        <span className="first-letter">D</span>oušek
+      </div>
+      <div className="contact-first contact-first--small">(autor her)</div>
       <div className="contact-wrapper">
         <div className="icons">
           <a
