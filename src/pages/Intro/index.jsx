@@ -20,7 +20,6 @@ const Intro = () => {
         <p className="last">
           Hry v reálném prostředí města Brna pro děti ve věku 4–10{' '}
         </p>
-        <Button link="#buy" text="Koupit hru" />
       </div>
     </div>
   );

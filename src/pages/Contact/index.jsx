@@ -33,7 +33,7 @@ const Contact = () => {
           </a>
         </div>
         <p>
-          Email: <a href="mailto:info@hradejov.cz">info@hradejov.cz</a>
+          Email: <a href="mailto:novotna.m2@gmail.com">novotna.m2@gmail.com</a>
         </p>
       </div>
       <Form />

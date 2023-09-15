@@ -58,7 +58,6 @@ const Explore = () => {
           />
         </div>
       </div>
-      <Button link="#buy" text="Koupit hru" />
     </div>
   );
 };

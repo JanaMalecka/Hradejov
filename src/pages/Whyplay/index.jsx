@@ -34,7 +34,6 @@ const Whyplay = () => {
           </p>
         </div>
       </div>
-      <Button link="#buy" text="Koupit hru" />
     </div>
   );
 };

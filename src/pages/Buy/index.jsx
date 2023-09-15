@@ -9,7 +9,7 @@ import { Link, useLocation } from 'react-router-dom';
 const Buy = () => {
   return (
     <div className="container">
-      <h1 className="title swing">Koupit hru</h1>
+      <h1 className="title swing">Hru již nelze zakoupit</h1>
       <div className="container-book">
         <div className="book-wrapper">
           <img
@@ -42,29 +42,12 @@ const Buy = () => {
         K samotné hře je nezbytný pouze herní plán a tužka k zapisování odpovědí
         v podobě čísel.
       </p>
-      <p className="paragraph--pink">Cena: 400 Kč</p>
+
       {/* <p className="heading--pink">
         Cena zahrnuje náklady na poštovné za hru a poštovné za vítěznou odměnu
       </p> */}
-      <p className="heading--pink">
-        Hru Utrhčíslo můžete zakoupit prostřednictvím našeho E-shopu a ve
-        vybraných Informačních centrech:{' '}
-        <a href="https://www.gotobrno.cz/informacni-centra/informacni-centrum-pod-krokodylem/">
-          IC pod Krokodýlem
-        </a>
-        , {}
-        <a href="https://www.gotobrno.cz/informacni-centra/informacni-centrum-to-je-brno/">
-          IC TO JE Brno
-        </a>
-      </p>
+      <p className="heading--pink">Hru Utrhčíslo již nelze zakoupit</p>
 
-      <div className="btn-wrapper btn-wrapper--basket">
-        <Button
-          /*  disabled={true} */
-          link="https://form.simpleshop.cz/8Oy6/buy/"
-          text="E-shop"
-        />
-      </div>
       <h2 className="subtitle margin--large swing">Připravujeme</h2>
 
       <img
